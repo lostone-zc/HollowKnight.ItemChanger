@@ -69,7 +69,7 @@ namespace ItemChanger.Modules
 
         private void EditVoidHeartDescription(ref string value)
         {
-            value = "An emptiness that was hidden within, now unconstrained. Unifies the void under the bearer's will.\nThis charm can be unequipped to make the Shade and Siblings hostile once more.";
+            value = "隐藏在内部的空虚，现在不再受到约束。联合了持有者意志下的虚无存在。\n这个护符可以移除，以恢复兄弟和阴影的敌对性";
         }
     }
 }

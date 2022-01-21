@@ -126,11 +126,11 @@ namespace ItemChanger.Modules
         {
             if (canDashLeft && !canDashRight)
             {
-                value = "Left Mothwing Cloak";
+                value = "左蛾翼披风";
             }
             else if (!canDashLeft && canDashRight)
             {
-                value = "Right Mothwing Cloak";
+                value = "右蛾翼披风";
             }
         }
 
@@ -138,11 +138,11 @@ namespace ItemChanger.Modules
         {
             if (canDashLeft && !canDashRight)
             {
-                value = "Left Shade Cloak";
+                value = "左暗影披风";
             }
             else if (!canDashLeft && canDashRight)
             {
-                value = "Right Shade Cloak";
+                value = "右暗影披风";
             }
         }
 
@@ -150,11 +150,11 @@ namespace ItemChanger.Modules
         {
             if (canDashLeft && !canDashRight)
             {
-                value = "Cloak threaded with mothwing strands. Allows the wearer to dash to the left along the ground or through the air.";
+                value = "蛾翅线编制的披风的一部分。让穿着者可在地面或空中向左冲刺。";
             }
             else if (!canDashLeft && canDashRight)
             {
-                value = "Cloak threaded with mothwing strands. Allows the wearer to dash to the right along the ground or through the air.";
+                value = "蛾翅线编制的披风的一部分。让穿着者可在地面或空中向右冲刺。";
             }
         }
 
@@ -162,11 +162,11 @@ namespace ItemChanger.Modules
         {
             if (canDashLeft && !canDashRight)
             {
-                value = "Cloak formed from the substance of the Abyss. Allows the wearer to dash to the left through enemies and their attacks without taking damage.";
+                value = "由深渊的物质形成的披风的一部分。允许穿戴者向左冲刺时穿过敌人和他们的攻击而不受到伤害。";
             }
             else if (!canDashLeft && canDashRight)
             {
-                value = "Cloak formed from the substance of the Abyss. Allows the wearer to dash to the right through enemies and their attacks without taking damage.";
+                value = "由深渊的物质形成的披风的一部分。允许穿戴者向右冲刺时穿过敌人和他们的攻击而不受到伤害。";
             }
         }
     }

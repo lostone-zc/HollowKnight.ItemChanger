@@ -85,11 +85,11 @@ namespace ItemChanger.Modules
         {
             if (hasSuperdashLeft && !hasSuperdashRight)
             {
-                value = "Left Crystal Heart";
+                value = "左水晶之心";
             }
             else if (!hasSuperdashLeft && hasSuperdashRight)
             {
-                value = "Right Crystal Heart";
+                value = "右水晶之心";
             }
         }
 
@@ -97,11 +97,11 @@ namespace ItemChanger.Modules
         {
             if (hasSuperdashLeft && !hasSuperdashRight)
             {
-                value = "Part of the energy core of an old mining golem, fashioned around a potent crystal. The crystal's energy can be channeled to launch the bearer to the left at dangerous speeds.";
+                value = "一个古老挖矿魔像的能量核心的一部分，以一块强力的水晶塑成。水晶的能量可以被引导，能将持有者以危险的速度向左发射出去。";
             }
             else if (!hasSuperdashLeft && hasSuperdashRight)
             {
-                value = "Part of the energy core of an old mining golem, fashioned around a potent crystal. The crystal's energy can be channeled to launch the bearer to the right at dangerous speeds.";
+                value = "一个古老挖矿魔像的能量核心的一部分，以一块强力的水晶塑成。水晶的能量可以被引导，能将持有者以危险的速度向右发射出去。";
             }
         }
 

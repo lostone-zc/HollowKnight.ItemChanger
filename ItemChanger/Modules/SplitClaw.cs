@@ -86,11 +86,11 @@ namespace ItemChanger.Modules
         {
             if (hasWalljumpLeft && !hasWalljumpRight)
             {
-                value = "Left Mantis Claw";
+                value = "左螳螂爪";
             }
             else if (!hasWalljumpLeft && hasWalljumpRight)
             {
-                value = "Right Mantis Claw";
+                value = "右螳螂爪";
             }
         }
 
@@ -98,11 +98,11 @@ namespace ItemChanger.Modules
         {
             if (hasWalljumpLeft && !hasWalljumpRight)
             {
-                value = "Part of a claw carved from bone. Allows the wearer to cling to walls on the left and leap off of them.";
+                value = "用骨头雕刻的爪子的一部分。允许使用者紧贴墙壁的左侧并在墙上跳跃。";
             }
             else if (!hasWalljumpLeft && hasWalljumpRight)
             {
-                value = "Part of a claw carved from bone. Allows the wearer to cling to walls on the right and leap off of them.";
+                value = "用骨头雕刻的爪子的一部分。允许使用者的右侧紧贴墙壁并在墙上跳跃。";
             }
         }
 

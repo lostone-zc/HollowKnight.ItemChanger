@@ -116,8 +116,8 @@ namespace ItemChanger.Modules
         public override string GetCostText()
         {
             int balance = cumulative ? amount - ItemChangerMod.Modules.GetOrAdd<GrimmkinFlameManager>().cumulativeFlamesSpent : amount;
-            if (balance <= 0) return "Free";
-            else return subtractive ? $"Pay {amount} Grimmkin Flames" : $"Requires {amount} Grimmkin Flames";
+            if (balance <= 0) return "免费";
+            else return subtractive ? $"交付 {amount} 格林火焰" : $"需要 {amount} 格林火焰";
         }
 
         public override bool HasPayEffects()
