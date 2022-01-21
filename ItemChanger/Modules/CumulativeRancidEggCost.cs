@@ -43,7 +43,7 @@ namespace ItemChanger.Modules
         public override string GetCostText()
         {
             int bal = GetBalance();
-            if (bal > 0) return $"Pay {bal} rancid " + (bal != 1 ? "eggs." : "egg.");
+            if (bal > 0) return $"支付 {bal} 腐臭 " + (bal != 1 ? "蛋" : "蛋");
             else return "Free";
         }
     }

@@ -10,14 +10,14 @@ namespace ItemChanger.Internal.Menu
         {
             new() 
             {
-                Title = "Preload Settings", 
-                Description = "Changes to preload settings will not take effect until reloading the game.", 
+                Title = "预加载设置", 
+                Description = "设置在重启游戏后生效。", 
                 Entries = ItemChangerMod.GS.PreloadSettings.GetMenuEntries(),
             },
             new() 
             {
-                Title = "Location Settings", 
-                Description = "Changes to location settings will not affect old save files.", 
+                Title = "位置设置", 
+                Description = "设置不会影响已有存档。", 
                 Entries = ItemChangerMod.GS.LocationSettings.GetMenuEntries(),
             },
         };

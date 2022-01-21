@@ -190,14 +190,14 @@ namespace ItemChanger.Placements
         {
             if (!PurchasedAll)
             {
-                value = "Oh? Well, if you have no desire to get my items, I can not help you.";
+                value = "哦，我的老伙计，如果你看不上我这的东西，我就没啥能帮你的了";
             }
         }
         private void JijiYNOffer(ref string value)
         {
             if (!PurchasedAll)
             {
-                value = "Give Jiji all that you can?";
+                value = "给吉吉你所有的腐臭蛋?";
             }
         }
 

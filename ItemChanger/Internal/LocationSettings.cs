@@ -7,9 +7,9 @@ namespace ItemChanger.Internal
         public readonly record struct LocationSheetSetting(string Name, int SheetIndex);
         public static readonly LocationSheetSetting[] Settings = new LocationSheetSetting[]
         {
-            new("Avoid NPC Item Dialogue", (int)Finder.FinderLocationSheets.AvoidNPCItemDialogue),
-            new("Always Replace Bluggsacs", (int)Finder.FinderLocationSheets.AvoidBluggsacs),
-            new("Retain Tablet Sprites", (int)Finder.FinderLocationSheets.RetainTabletsOnReplace),
+            new("跳过NPC对话", (int)Finder.FinderLocationSheets.AvoidNPCItemDialogue),
+            new("用白点代替臭蛋口袋", (int)Finder.FinderLocationSheets.AvoidBluggsacs),
+            new("保持碑文精灵图像", (int)Finder.FinderLocationSheets.RetainTabletsOnReplace),
         };
 
         public List<int> extraSheets = new();

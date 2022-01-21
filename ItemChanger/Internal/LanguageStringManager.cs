@@ -99,24 +99,24 @@ namespace ItemChanger.Internal
 
             if (key.StartsWith("ITEMCHANGER_NAME_ESSENCE_"))
             {
-                return key["ITEMCHANGER_NAME_ESSENCE_".Length..] + " Essence";
+                return key["ITEMCHANGER_NAME_ESSENCE_".Length..] + " 精华";
             }
 
             if (key.StartsWith("ITEMCHANGER_NAME_GEO_"))
             {
-                return key["ITEMCHANGER_NAME_GEO_".Length..] + " Geo";
+                return key["ITEMCHANGER_NAME_GEO_".Length..] + " 吉欧";
             }
 
             if (key == "ITEMCHANGER_POSTVIEW_GRUB")
             {
-                return $"A grub! ({PlayerData.instance.GetInt(nameof(PlayerData.grubsCollected))}/46)";
+                return $"一只幼虫! ({PlayerData.instance.GetInt(nameof(PlayerData.grubsCollected))}/46)";
             }
 
             if (key == "ITEMCHANGER_POSTVIEW_GRIMMKIN_FLAME")
             {
                 int flames = PlayerData.instance.GetInt("cumulativeFlamesCollected");
                 if (flames <= 0) flames = PlayerData.instance.GetInt(nameof(PlayerData.flamesCollected));
-                return $"Grimmkin Flame ({flames}/10)";
+                return $"格林之火 ({flames}/10)";
             }
 
 

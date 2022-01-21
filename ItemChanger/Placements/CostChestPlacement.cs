@@ -146,15 +146,15 @@ namespace ItemChanger.Placements
                 string text = item.GetPreviewName(this) + "  -  ";
                 if (item.IsObtained())
                 {
-                    text += "Obtained";
+                    text += "已获得";
                 }
                 else if (cost is null)
                 {
-                    text += "Free";
+                    text += "免费";
                 }
                 else if (cost.Paid)
                 {
-                    text += "Purchased";
+                    text += "已交易";
                 }
                 else if (HasTag<Tags.DisableCostPreviewTag>() || item.HasTag<Tags.DisableCostPreviewTag>())
                 {

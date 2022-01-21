@@ -26,7 +26,7 @@
         {
             if (item.HasTag<Tags.DisableCostPreviewTag>()
                 || (placement != null && placement.HasTag<Tags.DisableCostPreviewTag>()))
-                return "The cost of this item is a secret!";
+                return "这件物品的价格是个秘密!";
             return cost.GetShopCostText();
         }
 
@@ -36,7 +36,7 @@
             if (item.HasTag<Tags.DisableCostPreviewTag>()
                 || (placement != null && placement.HasTag<Tags.DisableCostPreviewTag>()))
             {
-                text += "  -  The cost of this item is a secret!";
+                text += "  -  这件物品的价格是个秘密!";
             }
             else if (cost is not null && !cost.Paid)
             {

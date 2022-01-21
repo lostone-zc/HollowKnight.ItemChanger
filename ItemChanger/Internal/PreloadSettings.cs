@@ -73,13 +73,23 @@ namespace ItemChanger.Internal
         internal MenuEntry[] GetMenuEntries()
         {
             PreloadLevel[] values = Enum.GetValues(typeof(PreloadLevel)).Cast<PreloadLevel>().ToArray();
-            string[] names = values.Select(p => p.ToString().FromCamelCase()).ToArray();
-            return PreloadLevels.Keys.Select(key => new MenuEntry(
-                    name: key.FromCamelCase(),
-                    values: names,
-                    description: string.Empty,
-                    saver: i => PreloadLevels[key] = values[i],
-                    loader: () => Array.IndexOf(values, PreloadLevels[key]))).ToArray();
+            string[] names = values.Select((PreloadLevel p) => p.ToString().FromCamelCase()).ToArray();
+            return ((IEnumerable<string>)PreloadLevels.Keys).Select((Func<string, MenuEntry>)((string key) => new MenuEntry(Localize(key), names, string.Empty, (Action<int>)delegate (int i)
+            {
+                PreloadLevels[key] = values[i];
+            }, (Func<int>)(() => Array.IndexOf(values, PreloadLevels[key]))))).ToArray();
+        }
+
+        public string Localize(string orig)
+        {
+            return orig switch
+            {
+                "PreloadGeoRocks" => "钱堆预加载",
+                "PreloadSoulTotems" => "灵魂图腾预加载",
+                "PreloadGrub" => "幼虫预加载",
+                "PreloadMimic" => "假虫预加载",
+                _ => orig,
+            };
         }
     }
 }
