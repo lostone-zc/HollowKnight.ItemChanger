@@ -1,107 +1,107 @@
 <Language>
-  <entry sheet="UI" key="ITEMCHANGER_GET_COLLECTOR_MAP">Don't think about this as a map. Think about it as a statement about who you are as a person.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_NAME_LURIEN">Lurien</entry>
-  <entry sheet="UI" key="ITEMCHANGER_DESC_LURIEN">This should be at least 10 times more expensive than it is.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_NAME_MONOMON">Monomon</entry>
-  <entry sheet="UI" key="ITEMCHANGER_DESC_MONOMON">This should be at least 10 times more expensive than it is.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_NAME_HERRAH">Herrah</entry>
-  <entry sheet="UI" key="ITEMCHANGER_DESC_HERRAH">This should be at least 10 times more expensive than it is.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_NAME_DREAMER">Dreamer</entry>
-  <entry sheet="UI" key="ITEMCHANGER_DESC_DREAMER">This should be at least 10 times more expensive than it is.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_NAME_WORLD_SENSE">World Sense</entry>
-  <entry sheet="UI" key="ITEMCHANGER_DESC_WORLD_SENSE">Vessel. Though bound, you shall know the state of the world. Hallownest will be whole again.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_GET_WORLD_SENSE_1">Vessel. Though bound, you shall know the state of the world.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_GET_WORLD_SENSE_2">Hallownest will be whole again.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_NAME_ESSENCE">Essence</entry>
-  <entry sheet="UI" key="ITEMCHANGER_DESC_ESSENCE">Fresh organic DREAM PLANT ORBS sourced from local independent DREAM PLANT farms. Please support your hardworking neighborhood DREAM MOTHS.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_NAME_GRIMMKIN_FLAME">Grimmkin Flame</entry>
-  <entry sheet="UI" key="ITEMCHANGER_DESC_GRIMMKIN_FLAME">Hot new addition to your randomizer!</entry>
-  <entry sheet="UI" key="ITEMCHANGER_NAME_LIFEBLOOD_COCOON_SMALL">2 Lifeblood Masks</entry>
-  <entry sheet="UI" key="ITEMCHANGER_NAME_LIFEBLOOD_COCOON_LARGE">3 Lifeblood Masks</entry>
-  <entry sheet="UI" key="ITEMCHANGER_DESC_LIFEBLOOD_COCOON">Limited edition Lifeblood masks - get them while they last!</entry>
-  <entry sheet="UI" key="ITEMCHANGER_DESC_GEO">We're having a fire sale today. Go ahead and pick up your rebate already.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_NAME_SOUL">Soul Refill</entry>
-  <entry sheet="UI" key="ITEMCHANGER_DESC_SOUL">Comes with a cup, lid, and sippy straw. No additional refills.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_NAME_LORE">Lore Tablet</entry>
-  <entry sheet="UI" key="ITEMCHANGER_DESC_LORE">What secrets could lie on this tablet?</entry>
-  <entry sheet="UI" key="ITEMCHANGER_STAG_NAME_DIRTMOUTH">Dirtmouth Stag</entry>
-  <entry sheet="UI" key="ITEMCHANGER_STAG_NAME_CROSSROADS">Crossroads Stag</entry>
-  <entry sheet="UI" key="ITEMCHANGER_STAG_NAME_GREENPATH">Greenpath Stag</entry>
-  <entry sheet="UI" key="ITEMCHANGER_STAG_NAME_QUEENSSTATION">Queen's Station Stag</entry>
-  <entry sheet="UI" key="ITEMCHANGER_STAG_NAME_QUEENSGARDENS">Queen's Gardens Stag</entry>
-  <entry sheet="UI" key="ITEMCHANGER_STAG_NAME_STOREROOMS">City Storerooms Stag</entry>
-  <entry sheet="UI" key="ITEMCHANGER_STAG_NAME_KINGSSTATION">King's Station Stag</entry>
-  <entry sheet="UI" key="ITEMCHANGER_STAG_NAME_RESTINGGROUNDS">Resting Grounds Stag</entry>
-  <entry sheet="UI" key="ITEMCHANGER_STAG_NAME_DEEPNEST">Distant Village Stag</entry>
-  <entry sheet="UI" key="ITEMCHANGER_STAG_NAME_HIDDENSTATION">Hidden Station Stag</entry>
-  <entry sheet="UI" key="ITEMCHANGER_STAG_NAME_STAGNEST">Stag Nest Stag</entry>
-  <entry sheet="UI" key="ITEMCHANGER_STAG_DESC">IDK, seems pretty useful if you ask me.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_NAME_GRUB">A grub</entry>
-  <entry sheet="UI" key="ITEMCHANGER_DESC_GRUB">A bottled grub. Perfect for making juice, sauce, or any tasty meal really. We only have green ones in stock though.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_MAP_NAME_DIRTMOUTH">Dirtmouth Map</entry>
-  <entry sheet="UI" key="ITEMCHANGER_MAP_NAME_CROSSROADS">Crossroads Map</entry>
-  <entry sheet="UI" key="ITEMCHANGER_MAP_NAME_GREENPATH">Greenpath Map</entry>
-  <entry sheet="UI" key="ITEMCHANGER_MAP_NAME_FOG_CANYON">Fog Canyon Map</entry>
-  <entry sheet="UI" key="ITEMCHANGER_MAP_NAME_FUNGAL_WASTES">Fungal Wastes Map</entry>
-  <entry sheet="UI" key="ITEMCHANGER_MAP_NAME_DEEPNEST">Deepnest Map</entry>
-  <entry sheet="UI" key="ITEMCHANGER_MAP_NAME_ABYSS">Ancient Basin Map</entry>
-  <entry sheet="UI" key="ITEMCHANGER_MAP_NAME_OUTSKIRTS">Kingdom's Edge Map</entry>
-  <entry sheet="UI" key="ITEMCHANGER_MAP_NAME_CITY">City of Tears Map</entry>
-  <entry sheet="UI" key="ITEMCHANGER_MAP_NAME_WATERWAYS">Royal Waterways Map</entry>
-  <entry sheet="UI" key="ITEMCHANGER_MAP_NAME_CLIFFS">Howling Cliffs Map</entry>
-  <entry sheet="UI" key="ITEMCHANGER_MAP_NAME_MINES">Crystal Peak Map</entry>
-  <entry sheet="UI" key="ITEMCHANGER_MAP_NAME_ROYAL_GARDENS">Queen's Gardens Map</entry>
-  <entry sheet="UI" key="ITEMCHANGER_MAP_NAME_RESTING_GROUNDS">Resting Grounds Map</entry>
-  <entry sheet="UI" key="ITEMCHANGER_NAME_FOCUS">Focus</entry>
-  <entry sheet="UI" key="ITEMCHANGER_DESC_FOCUS">Press and hold the slow cast button to heal.</entry>
-  <entry sheet="Prompts" key="ITEMCHANGER_DESC_FOCUS">Press and hold the slow cast button to heal.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_FOCUS">Hahahahahahahahahahahaha. No.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_NAME_SWIM">Swim</entry>
-  <entry sheet="Prompts" key="ITEMCHANGER_DESC_SWIM">The power of buoyancy is yours.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_SWIM">I may not look like it, but I'm actually a fully certified swimming instructor. One easy payment, I toss you in the deep end, and, yeah, you'll figure it out from there.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_NAME_LEFTSLASH">Leftslash</entry>
-  <entry sheet="UI" key="ITEMCHANGER_NAME_RIGHTSLASH">Rightslash</entry>
-  <entry sheet="UI" key="ITEMCHANGER_NAME_UPSLASH">Upslash</entry>
-  <entry sheet="UI" key="ITEMCHANGER_NAME_DOWNSLASH">Downslash</entry>
-  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_LEFTSLASH">Your character seems pretty underpowered, huh. Let's fix that.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_RIGHTSLASH">Your character seems pretty underpowered, huh. Let's fix that.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_UPSLASH">Your character seems pretty underpowered, huh. Let's fix that.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_DOWNSLASH">Your character seems pretty underpowered, huh. Let's fix that.</entry>
+  <entry sheet="UI" key="ITEMCHANGER_GET_COLLECTOR_MAP">不要把它当成地图，请想象成它是你作为一个人的标志</entry>
+  <entry sheet="UI" key="ITEMCHANGER_NAME_LURIEN">泪城城主卢瑞恩</entry>
+  <entry sheet="UI" key="ITEMCHANGER_DESC_LURIEN">它至少应该值10倍的价（毕竟有谁不喜欢感染呢^_^）</entry>
+  <entry sheet="UI" key="ITEMCHANGER_NAME_MONOMON">教师莫诺蒙</entry>
+  <entry sheet="UI" key="ITEMCHANGER_DESC_MONOMON">它至少应该值10倍的价（毕竟有谁不喜欢感染呢^_^）</entry>
+  <entry sheet="UI" key="ITEMCHANGER_NAME_HERRAH">大黄蜂之母赫拉</entry>
+  <entry sheet="UI" key="ITEMCHANGER_DESC_HERRAH">它至少应该值10倍的价（毕竟有谁不喜欢感染呢^_^）</entry>
+  <entry sheet="UI" key="ITEMCHANGER_NAME_DREAMER">守梦者</entry>
+  <entry sheet="UI" key="ITEMCHANGER_DESC_DREAMER">它至少应该值10倍的价（毕竟有谁不喜欢感染呢^_^）</entry>
+  <entry sheet="UI" key="ITEMCHANGER_NAME_WORLD_SENSE">看完成度</entry>
+  <entry sheet="UI" key="ITEMCHANGER_DESC_WORLD_SENSE">容器容器，你拥有感知世界情况的能力，圣巢会再次完整</entry>
+  <entry sheet="UI" key="ITEMCHANGER_GET_WORLD_SENSE_1">容器容器，你拥有感知世界情况的能力</entry>
+  <entry sheet="UI" key="ITEMCHANGER_GET_WORLD_SENSE_2">圣巢会再次完整</entry>
+  <entry sheet="UI" key="ITEMCHANGER_NAME_ESSENCE">精华</entry>
+  <entry sheet="UI" key="ITEMCHANGER_DESC_ESSENCE">由梦树农场产生的精华，请支持你那勤劳的好邻居大扑棱蛾子</entry>
+  <entry sheet="UI" key="ITEMCHANGER_NAME_GRIMMKIN_FLAME">格林之火</entry>
+  <entry sheet="UI" key="ITEMCHANGER_DESC_GRIMMKIN_FLAME">火热的随机新物品!</entry>
+  <entry sheet="UI" key="ITEMCHANGER_NAME_LIFEBLOOD_COCOON_SMALL">2蓝血</entry>
+  <entry sheet="UI" key="ITEMCHANGER_NAME_LIFEBLOOD_COCOON_LARGE">3蓝血</entry>
+  <entry sheet="UI" key="ITEMCHANGER_DESC_LIFEBLOOD_COCOON">蓝血限定版，请在它们还在时买下</entry>
+  <entry sheet="UI" key="ITEMCHANGER_DESC_GEO">火热劲爆促销中!.</entry>
+  <entry sheet="UI" key="ITEMCHANGER_NAME_SOUL">灵魂饮料</entry>
+  <entry sheet="UI" key="ITEMCHANGER_DESC_SOUL">小杯好喝的饮料!，可以恢复精气神，补充你的灵魂</entry>
+  <entry sheet="UI" key="ITEMCHANGER_NAME_LORE">碑文</entry>
+  <entry sheet="UI" key="ITEMCHANGER_DESC_LORE">这上面会有什么秘密呢(乐)</entry>
+  <entry sheet="UI" key="ITEMCHANGER_STAG_NAME_DIRTMOUTH">泥口站</entry>
+  <entry sheet="UI" key="ITEMCHANGER_STAG_NAME_CROSSROADS">十字路站</entry>
+  <entry sheet="UI" key="ITEMCHANGER_STAG_NAME_GREENPATH">苍绿之径站</entry>
+  <entry sheet="UI" key="ITEMCHANGER_STAG_NAME_QUEENSSTATION">王后驿站</entry>
+  <entry sheet="UI" key="ITEMCHANGER_STAG_NAME_QUEENSGARDENS">王后花园站</entry>
+  <entry sheet="UI" key="ITEMCHANGER_STAG_NAME_STOREROOMS">城市仓库站</entry>
+  <entry sheet="UI" key="ITEMCHANGER_STAG_NAME_KINGSSTATION">国王驿站</entry>
+  <entry sheet="UI" key="ITEMCHANGER_STAG_NAME_RESTINGGROUNDS">安息之地站</entry>
+  <entry sheet="UI" key="ITEMCHANGER_STAG_NAME_DEEPNEST">遥远的村庄站</entry>
+  <entry sheet="UI" key="ITEMCHANGER_STAG_NAME_HIDDENSTATION">隐藏鹿角站</entry>
+  <entry sheet="UI" key="ITEMCHANGER_STAG_NAME_STAGNEST">鹿角虫巢穴站</entry>
+  <entry sheet="UI" key="ITEMCHANGER_STAG_DESC">emmm,如果你问我，我想这个多少会有点用</entry>
+  <entry sheet="UI" key="ITEMCHANGER_NAME_GRUB">一只幼虫</entry>
+  <entry sheet="UI" key="ITEMCHANGER_DESC_GRUB">一只装在罐子里的虫虫，快买它，多可爱!</entry>
+  <entry sheet="UI" key="ITEMCHANGER_MAP_NAME_DIRTMOUTH">小镇地图</entry>
+  <entry sheet="UI" key="ITEMCHANGER_MAP_NAME_CROSSROADS">十字路地图</entry>
+  <entry sheet="UI" key="ITEMCHANGER_MAP_NAME_GREENPATH">苍绿之径地图</entry>
+  <entry sheet="UI" key="ITEMCHANGER_MAP_NAME_FOG_CANYON">雾谷地图</entry>
+  <entry sheet="UI" key="ITEMCHANGER_MAP_NAME_FUNGAL_WASTES">真菌荒地地图</entry>
+  <entry sheet="UI" key="ITEMCHANGER_MAP_NAME_DEEPNEST">深巢地图</entry>
+  <entry sheet="UI" key="ITEMCHANGER_MAP_NAME_ABYSS">古老盆地地图</entry>
+  <entry sheet="UI" key="ITEMCHANGER_MAP_NAME_OUTSKIRTS">王国边缘地图</entry>
+  <entry sheet="UI" key="ITEMCHANGER_MAP_NAME_CITY">泪城地图</entry>
+  <entry sheet="UI" key="ITEMCHANGER_MAP_NAME_WATERWAYS">下水道地图</entry>
+  <entry sheet="UI" key="ITEMCHANGER_MAP_NAME_CLIFFS">呼啸悬崖地图</entry>
+  <entry sheet="UI" key="ITEMCHANGER_MAP_NAME_MINES">水晶山峰地图</entry>
+  <entry sheet="UI" key="ITEMCHANGER_MAP_NAME_ROYAL_GARDENS">王后花园地图</entry>
+  <entry sheet="UI" key="ITEMCHANGER_MAP_NAME_RESTING_GROUNDS">安息之地地图</entry>
+  <entry sheet="UI" key="ITEMCHANGER_NAME_FOCUS">聚集</entry>
+  <entry sheet="UI" key="ITEMCHANGER_DESC_FOCUS">这个你总不会不知道吧</entry>
+  <entry sheet="Prompts" key="ITEMCHANGER_DESC_FOCUS">这个你总不会不知道吧</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_FOCUS">哈哈哈哈哈,有胆别买</entry>
+  <entry sheet="UI" key="ITEMCHANGER_NAME_SWIM">游泳</entry>
+  <entry sheet="Prompts" key="ITEMCHANGER_DESC_SWIM">你已经掌握了浮力!</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_SWIM">没有它，你很多路当场gg,by 海蓝</entry>
+  <entry sheet="UI" key="ITEMCHANGER_NAME_LEFTSLASH">左劈</entry>
+  <entry sheet="UI" key="ITEMCHANGER_NAME_RIGHTSLASH">右劈</entry>
+  <entry sheet="UI" key="ITEMCHANGER_NAME_UPSLASH">上劈</entry>
+  <entry sheet="UI" key="ITEMCHANGER_NAME_DOWNSLASH">下劈</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_LEFTSLASH">你好像很没有力量!让我们来治疗一下!</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_RIGHTSLASH">你好像很没有力量!让我们来治疗一下!</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_UPSLASH">你好像很没有力量!让我们来治疗一下!</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_DOWNSLASH">你好像很没有力量!让我们来治疗一下!</entry>
 
   <!--Split Claw-->
-  <entry sheet="UI" key="ITEMCHANGER_NAME_LEFT_CLAW">Left Mantis Claw</entry>
-  <entry sheet="Prompts" key="ITEMCHANGER_DESC_LEFT_CLAW">while sliding against a wall to jump.</entry>
-  <entry sheet="Prompts" key="ITEMCHANGER_DESC_LEFT_CLAW_2">Only works on the left though!</entry>
-  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_LEFT_CLAW">Pretty nice find, shame it only works on the left.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_NAME_RIGHT_CLAW">Right Mantis Claw</entry>
-  <entry sheet="Prompts" key="ITEMCHANGER_DESC_RIGHT_CLAW">while sliding against a wall to jump.</entry>
-  <entry sheet="Prompts" key="ITEMCHANGER_DESC_RIGHT_CLAW_2">Only works on the right though!</entry>
-  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_RIGHT_CLAW">Pretty nice find, shame it only works on the right.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_SHOP_NAME_WALLJUMP">Mantis Claw</entry>
-  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_WALLJUMP">Claw carved from bone. Allows the wearer to cling to walls and leap off of them.</entry>
+  <entry sheet="UI" key="ITEMCHANGER_NAME_LEFT_CLAW">左螳螂爪</entry>
+  <entry sheet="Prompts" key="ITEMCHANGER_DESC_LEFT_CLAW">在墙上滑动时跳跃</entry>
+  <entry sheet="Prompts" key="ITEMCHANGER_DESC_LEFT_CLAW_2">仅限左边!</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_LEFT_CLAW">好东西!遗憾的是，它只能用于左边.</entry>
+  <entry sheet="UI" key="ITEMCHANGER_NAME_RIGHT_CLAW">右螳螂爪</entry>
+  <entry sheet="Prompts" key="ITEMCHANGER_DESC_RIGHT_CLAW">在墙上滑动时跳跃</entry>
+  <entry sheet="Prompts" key="ITEMCHANGER_DESC_RIGHT_CLAW_2">仅限右边!</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_RIGHT_CLAW">好东西!遗憾的是，它只能用于右边.</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_NAME_WALLJUMP">螳螂爪</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_WALLJUMP">用骨头雕刻的爪子。允许使用者紧贴墙壁并在墙上跳跃。(快乐的vm)</entry>
 
   <!--Split Cloak-->
-  <entry sheet="UI" key="ITEMCHANGER_NAME_LEFT_CLOAK">Left Mothwing Cloak</entry>
-  <entry sheet="Prompts" key="ITEMCHANGER_DESC_LEFT_CLOAK">to dash to the left.</entry>
-  <entry sheet="Prompts" key="ITEMCHANGER_DESC_LEFT_CLOAK_2">Use the cloak to dash quickly along the ground or through the air.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_LEFT_CLOAK">Pretty nice find, shame it only works to the left.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_NAME_RIGHT_CLOAK">Right Mothwing Cloak</entry>
-  <entry sheet="Prompts" key="ITEMCHANGER_DESC_RIGHT_CLOAK">to dash to the right.</entry>
-  <entry sheet="Prompts" key="ITEMCHANGER_DESC_RIGHT_CLOAK_2">Use the cloak to dash quickly along the ground or through the air.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_RIGHT_CLOAK">Pretty nice find, shame it only works to the right.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_SHOP_NAME_DASH">Mothwing Cloak</entry>
-  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_DASH">Cloak threaded with mothwing strands. Allows the wearer to dash forwards along the ground or through the air.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_SHOP_NAME_SHADOWDASH">Shade Cloak</entry>
-  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_SHADOWDASH">Cloak formed from the substance of the Abyss. Allows the wearer to dash through enemies and their attacks without taking damage.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_SHOP_NAME_LEFT_SHADOWDASH">Left Shade Cloak</entry>
-  <entry sheet="UI" key="ITEMCHANGER_SHOP_NAME_RIGHT_SHADOWDASH">Right Shade Cloak</entry>
+  <entry sheet="UI" key="ITEMCHANGER_NAME_LEFT_CLOAK">左蛾翼披风</entry>
+  <entry sheet="Prompts" key="ITEMCHANGER_DESC_LEFT_CLOAK">向左冲刺.</entry>
+  <entry sheet="Prompts" key="ITEMCHANGER_DESC_LEFT_CLOAK_2">使用披风在地面或空中向前冲刺.</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_LEFT_CLOAK">好东西!遗憾的是，它只能用于左边</entry>
+  <entry sheet="UI" key="ITEMCHANGER_NAME_RIGHT_CLOAK">右蛾翼披风</entry>
+  <entry sheet="Prompts" key="ITEMCHANGER_DESC_RIGHT_CLOAK">向右冲刺</entry>
+  <entry sheet="Prompts" key="ITEMCHANGER_DESC_RIGHT_CLOAK_2">使用披风在地面或空中向前冲刺.</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_RIGHT_CLOAK">好东西!遗憾的是，它只能用于右边</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_NAME_DASH">蛾翼披风</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_DASH">蛾翅线编制的披风。让穿着者可在地面或空中向前冲刺。</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_NAME_SHADOWDASH">暗影披风</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_SHADOWDASH">由深渊的物质形成的披风。允许穿戴者冲刺时穿过敌人和他们的攻击而不受到伤害。</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_NAME_LEFT_SHADOWDASH">左暗影披风</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_NAME_RIGHT_SHADOWDASH">右暗影披风</entry>
 
-  <entry sheet="UI" key="ITEMCHANGER_NAME_LEFT_SUPERDASH">Left Crystal Heart</entry>
-  <entry sheet="Prompts" key="ITEMCHANGER_GET_LEFT_SUPERDASH_1">while on the ground or clinging to a wall to concentrate the force.</entry>
-  <entry sheet="Prompts" key="ITEMCHANGER_GET_LEFT_SUPERDASH_2">Release the button to blast left and fly through the air.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_SHOPDESC_LEFT_SUPERDASH">Part of the energy core of an old mining golem, fashioned around a potent crystal. The crystal's energy can be channeled to launch the bearer to the left at dangerous speeds.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_NAME_RIGHT_SUPERDASH">Right Crystal Heart</entry>
-  <entry sheet="Prompts" key="ITEMCHANGER_GET_RIGHT_SUPERDASH_1">while on the ground or clinging to a wall to concentrate the force.</entry>
-  <entry sheet="Prompts" key="ITEMCHANGER_GET_RIGHT_SUPERDASH_2">Release the button to blast right and fly through the air.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_SHOPDESC_RIGHT_SUPERDASH">Part of the energy core of an old mining golem, fashioned around a potent crystal. The crystal's energy can be channeled to launch the bearer to the right at dangerous speeds.</entry>
+  <entry sheet="UI" key="ITEMCHANGER_NAME_LEFT_SUPERDASH">左水晶之心</entry>
+  <entry sheet="Prompts" key="ITEMCHANGER_GET_LEFT_SUPERDASH_1">在地面或墙上积蓄力量</entry>
+  <entry sheet="Prompts" key="ITEMCHANGER_GET_LEFT_SUPERDASH_2">松开按钮以向左飞行</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOPDESC_LEFT_SUPERDASH">一个古老挖矿魔像的能量核心的一部分，以一块强力的水晶塑成。水晶的能量可以被引导，能将持有者以危险的速度向前发射出去。</entry>
+  <entry sheet="UI" key="ITEMCHANGER_NAME_RIGHT_SUPERDASH">右水晶之心</entry>
+  <entry sheet="Prompts" key="ITEMCHANGER_GET_RIGHT_SUPERDASH_1">在地面或墙上积蓄力量</entry>
+  <entry sheet="Prompts" key="ITEMCHANGER_GET_RIGHT_SUPERDASH_2">松开按钮以向右飞行</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOPDESC_RIGHT_SUPERDASH">一个古老挖矿魔像的能量核心的一部分，以一块强力的水晶塑成。水晶的能量可以被引导，能将持有者以危险的速度向前发射出去。</entry>
 </Language>
