@@ -81,12 +81,12 @@ namespace ItemChanger
 
         public static Cost NewEssenceCost(int amount)
         {
-            return new PDIntCost(amount, nameof(PlayerData.dreamOrbs), $"Requires {amount} Essence");
+            return new PDIntCost(amount, nameof(PlayerData.dreamOrbs), $"需要 {amount} 精华");
         }
 
         public static Cost NewGrubCost(int amount)
         {
-            return new PDIntCost(amount, nameof(PlayerData.grubsCollected), $"Requires {amount} Grub{(amount == 1 ? string.Empty : "s")}");
+            return new PDIntCost(amount, nameof(PlayerData.grubsCollected), $"需要 {amount} 幼虫{(amount == 1 ? string.Empty : "")}");
         }
     }
 
@@ -249,7 +249,7 @@ namespace ItemChanger
 
         public override string GetCostText()
         {
-            return $"Pay {amount} geo";
+            return $"支付 {amount} 吉欧";
         }
 
         public override string GetShopCostText()
