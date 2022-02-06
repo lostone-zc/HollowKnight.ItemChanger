@@ -47,7 +47,7 @@ namespace ItemChanger
 
         [JsonIgnore]
         public string Value => Language.Language.Get(key, sheet)?.Replace("<br>", "\n").CapLength(125) 
-            + "...\nYou have reached your monthly free article limit. To continue reading, subscribe now with this limited time offer!";
+            + "...\n\n你已到达每月阅读上限。若想继续阅读，请一键三连，送主播一个648!";
         public IString Clone() => (IString)MemberwiseClone();
     }
 

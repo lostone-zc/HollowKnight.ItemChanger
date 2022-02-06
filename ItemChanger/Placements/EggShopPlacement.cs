@@ -140,7 +140,7 @@ namespace ItemChanger.Placements
         {
             if (!PurchasedAll)
             {
-                value = "Ah, hello. How have you been faring? Have you come to bring me something tasty? Let me see...";
+                value = "啊，你好。你最近怎么样？你给我带好吃的了吗？让我看看...";
             }
         }
         private void JijiShadeOffer(ref string value)
@@ -157,15 +157,15 @@ namespace ItemChanger.Placements
                     Cost cost = item.GetTag<CostTag>()?.Cost;
                     if (item.IsObtained())
                     {
-                        text += "Obtained";
+                        text += "已获得";
                     }
                     else if (cost is null)
                     {
-                        text += "Free";
+                        text += "免费";
                     }
                     else if (cost.Paid)
                     {
-                        text += "Purchased";
+                        text += "已交易";
                     }
                     else if (HasTag<Tags.DisableCostPreviewTag>() || item.HasTag<Tags.DisableCostPreviewTag>())
                     {

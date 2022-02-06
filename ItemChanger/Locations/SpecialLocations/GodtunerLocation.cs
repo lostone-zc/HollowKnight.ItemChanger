@@ -45,7 +45,7 @@ namespace ItemChanger.Locations.SpecialLocations
             if (this.GetItemHintActive())
             {
                 string text = Placement.GetUIName(40);
-                value = $"A cocoon containing {text}.\nUse simple key?";
+                value = $"装有 {text} 的茧。\n使用简单钥匙？";
                 Placement.OnPreview(text);
             }
         }
@@ -55,7 +55,7 @@ namespace ItemChanger.Locations.SpecialLocations
             if (this.GetItemHintActive())
             {
                 string text = Placement.GetUIName();
-                value = $"A cocoon chained with a simple lock. You can sense the {text} inside.";
+                value = $"被简单锁锁住的茧。你能隐约感觉到里面有 {text} 。";
                 Placement.OnPreview(text);
             }
         }

@@ -94,7 +94,7 @@ namespace ItemChanger.Locations.SpecialLocations
             if (!PlayerData.instance.GetBool("equippedCharm_" + requiredCharmID) && !Placement.AllObtained())
             {
                 string charmName = Util.CharmNameUtil.GetCharmName(requiredCharmID);
-                value += $"<page>It would be different if you were wearing {charmName}...";
+                value += $"<page>如果你装备 {charmName} 护符，情况会有所变化...";
             }
         }
     }

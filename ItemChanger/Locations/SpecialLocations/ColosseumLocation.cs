@@ -82,18 +82,18 @@ namespace ItemChanger.Locations.SpecialLocations
             {
                 default:
                 case SceneNames.Room_Colosseum_Bronze:
-                    sb.Append("Trial of the Warrior. ");
+                    sb.Append("勇士的试炼。");
                     break;
                 case SceneNames.Room_Colosseum_Silver:
-                    sb.Append("Trial of the Conqueror. ");
+                    sb.Append("征服者的试炼。");
                     break;
                 case SceneNames.Room_Colosseum_Gold:
-                    sb.Append("Trial of the Fool. ");
+                    sb.Append("愚人的试炼。");
                     break;
             }
 
-            sb.AppendLine($"Fight for {itemText} and geo.");
-            sb.Append("Place a mark and begin the Trial?");
+            sb.AppendLine($"为吉欧和 {itemText} 而战。");
+            sb.Append("放置标记，开始试炼？");
             return sb.ToString();
         }
 
@@ -104,18 +104,18 @@ namespace ItemChanger.Locations.SpecialLocations
             {
                 default:
                 case SceneNames.Room_Colosseum_Bronze:
-                    sb.Append("Trial of the Warrior. ");
+                    sb.Append("勇士的试炼。");
                     break;
                 case SceneNames.Room_Colosseum_Silver:
-                    sb.Append("Trial of the Conqueror. ");
+                    sb.Append("征服者的试炼。");
                     break;
                 case SceneNames.Room_Colosseum_Gold:
-                    sb.Append("Trial of the Fool. ");
+                    sb.Append("愚人的试炼。");
                     break;
             }
 
-            sb.AppendLine($"Fight for geo.");
-            sb.Append("Place a mark and begin the Trial?");
+            sb.AppendLine($"为吉欧而战。");
+            sb.Append("放置标记，开始试炼？");
             return sb.ToString();
         }
 

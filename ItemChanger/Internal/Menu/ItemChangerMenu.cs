@@ -16,7 +16,7 @@ namespace ItemChanger.Internal.Menu
             },
             new() 
             {
-                Title = "位置设置", 
+                Title = "随机点状态设置", 
                 Description = "设置不会影响已有存档。", 
                 Entries = ItemChangerMod.GS.LocationSettings.GetMenuEntries(),
             },

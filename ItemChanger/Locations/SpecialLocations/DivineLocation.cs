@@ -84,8 +84,8 @@ namespace ItemChanger.Locations.SpecialLocations
             {
                 if (IsOnThisSlot(fsm))
                 {
-                    DialogueCenter.StartConversation($"Aaaaaaaaahhhhhhhh!<page>That {CharmNameUtil.GetCharmName(requiredCharmID)}... beautiful! " +
-                        $"Most precious thing! Little lovely, will you let me see it? Have to show it to me! ");
+                    DialogueCenter.StartConversation($"啊啊啊啊啊啊啊啊啊！<page>这个 {CharmNameUtil.GetCharmName(requiredCharmID)} 护符……真漂亮！" +
+                        $"如此宝贵的东西！小可爱，你可以让我看看它吗？一定要给我看看啊！");
                 }
             }));
 
@@ -213,9 +213,9 @@ namespace ItemChanger.Locations.SpecialLocations
                     .Select(fi => fi.Value).ToList();
                 if (charmIDs.Count != 0)
                 {
-                    text += $"<page>I want it... The smell of {CharmNameUtil.GetCharmName(charmIDs[0])}";
-                    for (int i = 1; i < charmIDs.Count; i++) text += $", and {CharmNameUtil.GetCharmName(charmIDs[i])}";
-                    text += "... I want it!";
+                    text += $"<page>你有 {CharmNameUtil.GetCharmName(charmIDs[0])}";
+                    for (int i = 1; i < charmIDs.Count; i++) text += $", {CharmNameUtil.GetCharmName(charmIDs[i])}";
+                    text += " 的气味... 赶快把它戴上!";
                 }
                 DialogueCenter.StartConversation(text);
             });

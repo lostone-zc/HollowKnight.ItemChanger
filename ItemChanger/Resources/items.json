@@ -1,4 +1,4 @@
-{
+﻿{
   "Lurien": {
     "$type": "ItemChanger.Items.DreamerItem, ItemChanger",
     "dreamer": "Lurien",
@@ -3049,7 +3049,7 @@
       "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
       "name": {
         "$type": "ItemChanger.BoxedString, ItemChanger",
-        "Value": "Double Mask Shard"
+        "Value": "双倍面具碎片"
       },
       "shopDesc": {
         "$type": "ItemChanger.LanguageString, ItemChanger",
@@ -3072,7 +3072,7 @@
       "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
       "name": {
         "$type": "ItemChanger.BoxedString, ItemChanger",
-        "Value": "Full Mask"
+        "Value": "整个面具"
       },
       "shopDesc": {
         "$type": "ItemChanger.LanguageString, ItemChanger",
@@ -3119,7 +3119,7 @@
       "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
       "name": {
         "$type": "ItemChanger.BoxedString, ItemChanger",
-        "Value": "Double Vessel Fragment"
+        "Value": "双倍容器碎片"
       },
       "shopDesc": {
         "$type": "ItemChanger.LanguageString, ItemChanger",
@@ -3142,7 +3142,7 @@
       "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
       "name": {
         "$type": "ItemChanger.BoxedString, ItemChanger",
-        "Value": "Full Soul Vessel"
+        "Value": "整个灵魂容器"
       },
       "shopDesc": {
         "$type": "ItemChanger.LanguageString, ItemChanger",
@@ -3507,7 +3507,7 @@
       },
       "shopDesc": {
         "$type": "ItemChanger.BoxedString, ItemChanger",
-        "Value": "But is it really nothing though?"
+        "Value": "真的毛都没有?"
       },
       "sprite": {
         "$type": "ItemChanger.ItemChangerSprite, ItemChanger",
@@ -4317,7 +4317,7 @@
       "$type": "ItemChanger.UIDefs.SplitUIDef, ItemChanger",
       "preview": {
         "$type": "ItemChanger.BoxedString, ItemChanger",
-        "Value": "A Grub"
+        "Value": "一只幼虫"
       },
       "name": {
         "$type": "ItemChanger.LanguageString, ItemChanger",
@@ -4344,11 +4344,11 @@
       "$type": "ItemChanger.UIDefs.SplitUIDef, ItemChanger",
       "name": {
         "$type": "ItemChanger.BoxedString, ItemChanger",
-        "Value": "Not a Grub"
+        "Value": "Not 一只幼虫"
       },
       "preview": {
         "$type": "ItemChanger.BoxedString, ItemChanger",
-        "Value": "A Grub"
+        "Value": "一只幼虫"
       },
       "shopDesc": {
         "$type": "ItemChanger.LanguageString, ItemChanger",
@@ -5381,7 +5381,7 @@
       },
       "shopDesc": {
         "$type": "ItemChanger.BoxedString, ItemChanger",
-        "Value": "Records every creature you've killed, so you never forget how you murdered them in cold blood."
+        "Value": "记录你击败的敌人，用来显示你有多么冷血。"
       },
       "sprite": {
         "$type": "ItemChanger.ItemChangerSprite, ItemChanger",
@@ -5399,7 +5399,7 @@
       "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
       "name": {
         "$type": "ItemChanger.BoxedString, ItemChanger",
-        "Value": "Void Tendrils Journal Entry"
+        "Value": "虚空卷须图鉴条目"
       },
       "shopDesc": {
         "$type": "ItemChanger.PaywallString, ItemChanger",
@@ -5422,7 +5422,7 @@
       "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
       "name": {
         "$type": "ItemChanger.BoxedString, ItemChanger",
-        "Value": "Charged Lumafly Journal Entry"
+        "Value": "带电光蝇图鉴条目"
       },
       "shopDesc": {
         "$type": "ItemChanger.PaywallString, ItemChanger",
@@ -5445,7 +5445,7 @@
       "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
       "name": {
         "$type": "ItemChanger.BoxedString, ItemChanger",
-        "Value": "Goam Journal Entry"
+        "Value": "戈姆图鉴条目"
       },
       "shopDesc": {
         "$type": "ItemChanger.PaywallString, ItemChanger",
@@ -5468,7 +5468,7 @@
       "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
       "name": {
         "$type": "ItemChanger.BoxedString, ItemChanger",
-        "Value": "Garpede Journal Entry"
+        "Value": "加皮德图鉴条目"
       },
       "shopDesc": {
         "$type": "ItemChanger.PaywallString, ItemChanger",
@@ -5491,7 +5491,7 @@
       "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
       "name": {
         "$type": "ItemChanger.BoxedString, ItemChanger",
-        "Value": "Seal of Binding Journal Entry"
+        "Value": "束缚封印图鉴条目"
       },
       "shopDesc": {
         "$type": "ItemChanger.PaywallString, ItemChanger",
@@ -5515,11 +5515,11 @@
       "$type": "ItemChanger.UIDefs.MsgUIDef, ItemChanger",
       "name": {
         "$type": "ItemChanger.BoxedString, ItemChanger",
-        "Value": "Elevator Pass"
+        "Value": "电梯通行证"
       },
       "shopDesc": {
         "$type": "ItemChanger.BoxedString, ItemChanger",
-        "Value": "What is a Vertical Tram, and why does this say Vertical Tram Pass?"
+        "Value": "竖直的电车是什么，为什么这个的图像是竖直的电车通行证?"
       },
       "sprite": {
         "$type": "ItemChanger.ItemChangerSprite, ItemChanger",

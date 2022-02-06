@@ -47,7 +47,7 @@ namespace ItemChanger.Locations.SpecialLocations
             if (this.GetItemHintActive())
             {
                 string text = Placement.GetUIName();
-                value = $"Accept the Gift, even knowing you'll only get a lousy {text}?";
+                value = $"接受礼物, 即使你知道你完成后会获得糟糕的 {text} ？";
                 Placement.OnPreview(text);
             }
         }

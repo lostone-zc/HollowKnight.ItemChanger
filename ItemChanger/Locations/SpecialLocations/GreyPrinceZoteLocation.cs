@@ -37,8 +37,8 @@
                 string item = Placement.GetUIName(40);
                 if (string.IsNullOrEmpty(item)) return;
 
-                value += $"<page>The Maiden's Treasure<br>Pondering what to gift her saviour, the damsel thought of the precious "
-                    + item + " under her room. Though difficult to part with, she had nothing better with which to thank them.";
+                value += $"<page>少女的回礼<br>少女想送点礼物给她的救主，她想到她房间下面的珍贵的 "
+                    + item + " 。虽然少女与这件物品难舍难分，但是她也没有比这更好的礼物了。";
                 Placement.OnPreview(item);
             }
         }

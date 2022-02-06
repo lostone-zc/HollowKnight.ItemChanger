@@ -13,7 +13,7 @@
                 amount = amount,
                 UIDef = new UIDefs.MsgUIDef
                 {
-                    name = new BoxedString($"{amount} Geo"),
+                    name = new BoxedString($"{amount} 吉欧"),
                     shopDesc = new LanguageString("UI", "ITEMCHANGER_DESC_GEO"),
                     sprite = new ItemChangerSprite("ShopIcons.Geo"),
                 },

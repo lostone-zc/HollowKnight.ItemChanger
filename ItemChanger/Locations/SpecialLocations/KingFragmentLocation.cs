@@ -26,15 +26,15 @@
                 if (!Placement.AllObtained())
                 {
                     string text = Placement.GetUIName();
-                    value = "A corpse in white armour. You can clearly see the "
-                                + text + " it's holding, " +
-                                "but for some reason you get the feeling you're going to have to go" +
-                                " through an unnecessarily long gauntlet of spikes and sawblades just to pick it up.";
+                    value = "身穿白色盔甲的尸体。 你清晰地看到它正拿着 "
+                                + text + " ，" +
+                                "但出于一些未知的原因，你知道你必须" +
+                                "要去穿过那些尖刺和电剧，要去获得它。";
                     Placement.OnPreview(text);
                 }
                 else
                 {
-                    value = "A corpse in white armour. You already got the stuff it was holding.";
+                    value = "身穿白色盔甲的尸体。 你已经获得它的物品。";
                 }
             }
         }

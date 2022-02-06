@@ -38,8 +38,8 @@ namespace ItemChanger.Modules
 
             if (fs != null)
             {
-                if (fs.canFocus) sb.Append("You can focus.");
-                else sb.Append("You cannot focus.");
+                if (fs.canFocus) sb.Append("你能聚集。");
+                else sb.Append("你不能聚集。");
 
                 if (ss != null) sb.Append(' ');
                 else sb.AppendLine();
@@ -47,57 +47,57 @@ namespace ItemChanger.Modules
 
             if (ss != null)
             {
-                if (ss.canSwim) sb.Append("You can swim.");
-                else sb.Append("You cannot swim.");
+                if (ss.canSwim) sb.Append("你能游泳。");
+                else sb.Append("你不能游泳。");
                 sb.AppendLine();
             }
 
             if (!Ref.PD.GetBool(nameof(Ref.PD.hasDreamNail)))
             {
                 int essence = Ref.PD.GetInt(nameof(Ref.PD.dreamOrbs));
-                if (essence > 0) sb.AppendLine($"You have {essence} essence.");
+                if (essence > 0) sb.AppendLine($"你有 {essence} 精华。");
             }
 
             if (TrackGrimmkinFlames && PlayerData.instance.GetInt(nameof(PlayerData.grimmChildLevel)) <= 3)
             {
                 if (mods.Get<GrimmkinFlameManager>() is GrimmkinFlameManager gfm)
                 {
-                    sb.AppendLine($"You have {gfm.flameBalance} unspent Grimmkin Flame(s). ({gfm.cumulativeFlamesCollected} total)");
+                    sb.AppendLine($"你有 {gfm.flameBalance} 未使用的格林火焰。（总共：{gfm.cumulativeFlamesCollected}）");
                 }
                 else
                 {
-                    sb.AppendLine($"You have {PlayerData.instance.GetInt(nameof(PlayerData.flamesCollected))} unspent Grimmkin Flame(s).");
+                    sb.AppendLine($"你有 {PlayerData.instance.GetInt(nameof(PlayerData.flamesCollected))} 未使用的格林火焰。");
                 } 
             }
 
-            sb.AppendLine($"You've rescued {Ref.PD.GetInt(nameof(PlayerData.grubsCollected))} grub(s) so far!");
+            sb.AppendLine($"你目前救了 {Ref.PD.GetInt(nameof(PlayerData.grubsCollected))} 幼虫。");
             int dreamers = Ref.PD.GetInt(nameof(PlayerData.guardiansDefeated));
-            sb.Append($"You've found {dreamers} dreamer(s)");
+            sb.Append($"你目前找到了 {dreamers} 守梦者。");
             if (dreamers > 0)
             {
-                sb.AppendLine(", including:");
+                sb.AppendLine("，包括：");
                 bool lurien = Ref.PD.GetBool(nameof(PlayerData.lurienDefeated));
                 bool monomon = Ref.PD.GetBool(nameof(PlayerData.monomonDefeated));
                 bool herrah = Ref.PD.GetBool(nameof(PlayerData.hegemolDefeated));
 
                 if (lurien)
                 {
-                    sb.Append("Lurien, ");
+                    sb.Append("卢瑞恩, ");
                     dreamers--;
                 }
                 if (monomon)
                 {
-                    sb.Append("Monomon, ");
+                    sb.Append("莫诺蒙, ");
                     dreamers--;
                 }
                 if (herrah)
                 {
-                    sb.Append("Herrah, ");
+                    sb.Append("赫拉, ");
                     dreamers--;
                 }
                 if (dreamers > 0)
                 {
-                    sb.Append("Duplicate Dreamer(s)");
+                    sb.Append("复制的守梦者");
                 }
             }
             sb.AppendLine();
@@ -117,21 +117,21 @@ namespace ItemChanger.Modules
 
                 string[] abilities = new[]
                 {
-                    (sn.canDownslash, "down"),
-                    (sn.canUpslash, "up"),
-                    (sn.canSideslashLeft, "left"),
-                    (sn.canSideslashRight, "right"),
+                    (sn.canDownslash, "下"),
+                    (sn.canUpslash, "上"),
+                    (sn.canSideslashLeft, "左"),
+                    (sn.canSideslashRight, "右"),
                 }.Where(p => p.Item1).Select(p => p.Item2).ToArray();
 
                 if (abilities.Length > 0)
                 {
-                    sb.Append("<br><br>Can be swung ");
-                    sb.Append(string.Join(", ", abilities));
-                    sb.Append('.');
+                    sb.Append("<br><br>可以向");
+                    sb.Append(string.Join("、", abilities));
+                    sb.Append("挥舞。");
                 }
                 else
                 {
-                    sb.Append("<br><br>Cannot be swung.");
+                    sb.Append("<br><br>不能被挥舞。");
                 }
 
                 value += sb.ToString();
