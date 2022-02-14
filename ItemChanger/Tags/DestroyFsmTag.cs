@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Tags
+namespace ItemChanger.Tags
 {
     /// <summary>
     /// Tag which destroys an object when an attached fsm activates.

@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Locations.SpecialLocations
+namespace ItemChanger.Locations.SpecialLocations
 {
     public class PaleLurkerDropLocation : EnemyLocation
     {

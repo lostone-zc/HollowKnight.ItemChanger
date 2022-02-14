@@ -1,4 +1,4 @@
-﻿using Modding;
+using Modding;
 using Modding.Menu;
 using Modding.Menu.Config;
 using UnityEngine.UI;

@@ -1,4 +1,4 @@
-﻿{
+{
   "Rancid_Egg-Queen's_Gardens": {
     "$type": "ItemChanger.Locations.ObjectLocation, ItemChanger",
     "objectName": "Egg Sac",

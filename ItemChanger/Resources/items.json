@@ -1,4 +1,4 @@
-﻿{
+{
   "Lurien": {
     "$type": "ItemChanger.Items.DreamerItem, ItemChanger",
     "dreamer": "Lurien",
@@ -4317,7 +4317,7 @@
       "$type": "ItemChanger.UIDefs.SplitUIDef, ItemChanger",
       "preview": {
         "$type": "ItemChanger.BoxedString, ItemChanger",
-        "Value": "一只幼虫"
+        "Value": "一只可真可假的虫"
       },
       "name": {
         "$type": "ItemChanger.LanguageString, ItemChanger",
@@ -4348,7 +4348,7 @@
       },
       "preview": {
         "$type": "ItemChanger.BoxedString, ItemChanger",
-        "Value": "一只幼虫"
+        "Value": "一只可真可假的虫"
       },
       "shopDesc": {
         "$type": "ItemChanger.LanguageString, ItemChanger",

@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Modules
+namespace ItemChanger.Modules
 {
     /// <summary>
     /// Module which adds a gate in Grimm_Main_Tent when the Nightmare Lantern has not been lit.

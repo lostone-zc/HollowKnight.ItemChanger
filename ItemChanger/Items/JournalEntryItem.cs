@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Items
+namespace ItemChanger.Items
 {
     /// <summary>
     /// Item which fully unlocks and completes the corresponding entry of the Hunter's Journal.

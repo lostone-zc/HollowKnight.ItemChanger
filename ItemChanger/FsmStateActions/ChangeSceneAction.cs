@@ -1,4 +1,4 @@
-﻿using GlobalEnums;
+using GlobalEnums;
 using Modding;
 using ItemChanger.Internal;
 

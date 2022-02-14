@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Tags
+namespace ItemChanger.Tags
 {
     /// <summary>
     /// Tag which carries ordered lists of predecessors and successors item names.

@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.FsmStateActions
+namespace ItemChanger.FsmStateActions
 {
     public class WaitForDelegate : FsmStateAction
     {

@@ -1,4 +1,4 @@
-﻿using MenuEntry = Modding.IMenuMod.MenuEntry;
+using MenuEntry = Modding.IMenuMod.MenuEntry;
 
 namespace ItemChanger.Internal
 {

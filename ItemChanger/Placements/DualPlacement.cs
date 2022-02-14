@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Placements
+namespace ItemChanger.Placements
 {
     /// <summary>
     /// Placement which handles switching between two possible locations according to a test.

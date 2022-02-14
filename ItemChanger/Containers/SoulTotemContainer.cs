@@ -1,4 +1,4 @@
-﻿using HutongGames.PlayMaker.Actions;
+using HutongGames.PlayMaker.Actions;
 using ItemChanger.Components;
 using ItemChanger.Extensions;
 using ItemChanger.FsmStateActions;

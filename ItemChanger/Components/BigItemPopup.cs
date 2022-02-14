@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using Modding;
 using UnityEngine.UI;
 using ItemChanger.Internal;

@@ -1,4 +1,4 @@
-﻿using Modding;
+using Modding;
 
 namespace ItemChanger.Internal
 {

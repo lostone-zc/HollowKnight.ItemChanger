@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Placements
+namespace ItemChanger.Placements
 {
     /// <summary>
     /// Interface which indicates that placement expects all items to share a common cost.

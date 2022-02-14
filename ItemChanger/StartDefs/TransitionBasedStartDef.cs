@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.StartDefs
+namespace ItemChanger.StartDefs
 {
     /// <summary>
     /// Accounts for the fact that transitions are not consistently placed as root gameobjects

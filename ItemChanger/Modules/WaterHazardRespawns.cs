@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Modules
+namespace ItemChanger.Modules
 {
     /// <summary>
     /// Module which adds extra hazard respawn markers to rooms that ordinarily don't contain hazards, but do contain water which can become hazardous without Swim.

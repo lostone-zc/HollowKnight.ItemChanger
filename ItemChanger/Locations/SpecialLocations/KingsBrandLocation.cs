@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Locations.SpecialLocations
+namespace ItemChanger.Locations.SpecialLocations
 {
     /// <summary>
     /// ObjectLocation which prevents the King's Brand avalanche sequence from occuring.

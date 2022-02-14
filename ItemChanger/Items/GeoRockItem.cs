@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Items
+namespace ItemChanger.Items
 {
     /// <summary>
     /// Item which spawns the specified amount of geo, and requests a geo rock container of the specified GeoRockSubtype.

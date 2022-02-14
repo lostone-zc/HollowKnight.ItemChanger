@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Modules
+namespace ItemChanger.Modules
 {
     /// <summary>
     /// Module which adds a platform to Right City, replacing a Great Husk Sentry pogo that was removed when its patrol range was changed in the Lifeblood update.

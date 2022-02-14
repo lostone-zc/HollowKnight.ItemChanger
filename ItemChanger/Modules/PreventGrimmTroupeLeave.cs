@@ -1,4 +1,4 @@
-﻿using ItemChanger.Extensions;
+using ItemChanger.Extensions;
 using Modding;
 
 namespace ItemChanger.Modules

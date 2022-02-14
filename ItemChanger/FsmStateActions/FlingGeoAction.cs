@@ -1,4 +1,4 @@
-﻿using ItemChanger.Internal;
+using ItemChanger.Internal;
 using Random = System.Random;
 
 namespace ItemChanger.FsmStateActions

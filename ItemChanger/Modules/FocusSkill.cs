@@ -1,4 +1,4 @@
-﻿#pragma warning disable IDE1006 // Naming Styles
+#pragma warning disable IDE1006 // Naming Styles
 
 namespace ItemChanger.Modules
 {

@@ -1,4 +1,4 @@
-﻿namespace ItemChanger
+namespace ItemChanger
 {
     static class VanillaShops
     {

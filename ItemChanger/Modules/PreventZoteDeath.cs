@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Modules
+namespace ItemChanger.Modules
 {
     /// <summary>
     /// Module which prevents Zote from dying for any reason.

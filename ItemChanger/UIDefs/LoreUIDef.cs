@@ -1,4 +1,4 @@
-﻿using ItemChanger.Internal;
+using ItemChanger.Internal;
 
 namespace ItemChanger.UIDefs
 {

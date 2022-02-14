@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Components
+namespace ItemChanger.Components
 {
     /// <summary>
     /// Component to be attached to a container GameObject to allow the Container class to make changes.

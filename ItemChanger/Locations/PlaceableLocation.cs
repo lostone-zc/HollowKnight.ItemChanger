@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Locations
+namespace ItemChanger.Locations
 {
     /// <summary>
     /// Base type for ContainerLocations which support receiving receiving a container at a placement-controlled time and manner.

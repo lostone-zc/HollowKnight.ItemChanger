@@ -1,4 +1,4 @@
-﻿using Modding;
+using Modding;
 using ItemChanger.Locations.SpecialLocations;
 
 namespace ItemChanger.Modules

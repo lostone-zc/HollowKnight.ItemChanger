@@ -1,4 +1,4 @@
-﻿using ItemChanger.Extensions;
+using ItemChanger.Extensions;
 
 namespace ItemChanger.Locations.SpecialLocations
 {

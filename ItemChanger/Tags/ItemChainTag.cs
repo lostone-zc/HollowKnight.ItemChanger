@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Tags
+namespace ItemChanger.Tags
 {
     /// <summary>
     /// Tag which triggers a recursive search through the AbstractItem.ModifyItem hook.

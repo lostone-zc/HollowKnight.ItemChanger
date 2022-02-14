@@ -1,4 +1,4 @@
-﻿namespace ItemChanger
+namespace ItemChanger
 {
     /// <summary>
     /// Interface used by shops to determine whether an item has a notch cost that should be displayed.

@@ -1,4 +1,4 @@
-﻿using ItemChanger.Extensions;
+using ItemChanger.Extensions;
 using HutongGames.PlayMaker.Actions;
 
 namespace ItemChanger.Internal.Preloaders

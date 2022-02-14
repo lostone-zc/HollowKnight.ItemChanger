@@ -1,4 +1,4 @@
-﻿using ItemChanger.Internal.Preloaders;
+using ItemChanger.Internal.Preloaders;
 
 namespace ItemChanger.Internal
 {

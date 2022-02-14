@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Tags
+namespace ItemChanger.Tags
 {
     /// <summary>
     /// An interface implemented by tags for sharing information between assemblies that do not strongly reference each other.

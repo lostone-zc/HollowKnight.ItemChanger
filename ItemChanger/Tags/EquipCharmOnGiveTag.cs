@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Tags
+namespace ItemChanger.Tags
 {
     /// <summary>
     /// Tag applied to a charm item so that the charm is equipped when given.

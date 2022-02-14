@@ -1,4 +1,4 @@
-﻿namespace ItemChanger
+namespace ItemChanger
 {
     internal static class LogHelper
     {

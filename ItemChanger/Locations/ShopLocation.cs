@@ -1,4 +1,4 @@
-﻿using ItemChanger.Placements;
+using ItemChanger.Placements;
 using HutongGames.PlayMaker.Actions;
 using ItemChanger.Components;
 using ItemChanger.FsmStateActions;

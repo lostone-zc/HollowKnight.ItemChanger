@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Items
+namespace ItemChanger.Items
 {
     /// <summary>
     /// Item designed to be compatible with Nailsmith upgrades and quest.

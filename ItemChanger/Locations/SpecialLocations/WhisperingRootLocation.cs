@@ -1,4 +1,4 @@
-﻿using ItemChanger.Components;
+using ItemChanger.Components;
 using ItemChanger.Util;
 using Mono.Cecil.Cil;
 using MonoMod.Cil;

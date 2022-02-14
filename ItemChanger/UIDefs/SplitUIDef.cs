@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.UIDefs
+namespace ItemChanger.UIDefs
 {
     /// <summary>
     /// A MsgUIDef with distinct preview and postview names.

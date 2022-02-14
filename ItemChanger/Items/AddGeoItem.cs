@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Items
+namespace ItemChanger.Items
 {
     /// <summary>
     /// Item which directly adds geo to the inventory.

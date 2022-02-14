@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Locations.SpecialLocations
+namespace ItemChanger.Locations.SpecialLocations
 {
     /// <summary>
     /// Wrapper location to allow converting a PlaceableLocation to an EggShopPlacement (instead of MutablePlacement)

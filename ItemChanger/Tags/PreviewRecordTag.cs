@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Tags
+namespace ItemChanger.Tags
 {
     /// <summary>
     /// Placement tag which stores a record of the information shared in the most recent preview of a single cost placement.

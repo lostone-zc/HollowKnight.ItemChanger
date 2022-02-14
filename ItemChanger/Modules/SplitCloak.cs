@@ -1,4 +1,4 @@
-﻿using HutongGames.PlayMaker.Actions;
+using HutongGames.PlayMaker.Actions;
 using ItemChanger.Extensions;
 using Modding;
 #pragma warning disable IDE1006 // Naming Styles

@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Modules
+namespace ItemChanger.Modules
 {
     [DefaultModule]
     public class AutoUnlockIselda : Module

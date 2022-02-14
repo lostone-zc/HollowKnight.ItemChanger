@@ -1,4 +1,4 @@
-﻿using ItemChanger.Util;
+using ItemChanger.Util;
 
 namespace ItemChanger.Modules
 {

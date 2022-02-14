@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Placements
+namespace ItemChanger.Placements
 {
     /// <summary>
     /// Empty interface which indicates that the placement expects costs to be tagged to items.

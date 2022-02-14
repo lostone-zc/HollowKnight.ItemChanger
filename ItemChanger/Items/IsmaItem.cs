@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Items
+namespace ItemChanger.Items
 {
     /// <summary>
     /// BoolItem which sends an event for acid pools to recheck whether the player has Isma's Tear.

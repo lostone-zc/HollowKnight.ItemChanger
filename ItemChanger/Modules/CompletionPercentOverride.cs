@@ -1,4 +1,4 @@
-﻿using ItemChanger.Extensions;
+using ItemChanger.Extensions;
 using ItemChanger.Internal;
 using ItemChanger.Tags;
 using Newtonsoft.Json;

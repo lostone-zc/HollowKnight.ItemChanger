@@ -1,4 +1,4 @@
-﻿using GlobalEnums;
+using GlobalEnums;
 
 namespace ItemChanger.UIDefs
 {

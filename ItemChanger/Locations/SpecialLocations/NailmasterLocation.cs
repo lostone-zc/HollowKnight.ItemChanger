@@ -1,4 +1,4 @@
-﻿using ItemChanger.FsmStateActions;
+using ItemChanger.FsmStateActions;
 using ItemChanger.Util;
 using ItemChanger.Extensions;
 

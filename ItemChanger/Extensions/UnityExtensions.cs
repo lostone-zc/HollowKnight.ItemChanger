@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Extensions
+namespace ItemChanger.Extensions
 {
     /// <summary>
     /// Extensions for Unity objects, and particularly for interacting with Scenes.

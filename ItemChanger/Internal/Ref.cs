@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Internal
+namespace ItemChanger.Internal
 {
     public static class Ref
     {

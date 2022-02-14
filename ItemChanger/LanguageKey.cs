@@ -1,4 +1,4 @@
-﻿namespace ItemChanger
+namespace ItemChanger
 {
     public readonly struct LanguageKey
     {

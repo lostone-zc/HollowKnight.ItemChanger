@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Internal.Preloaders
+namespace ItemChanger.Internal.Preloaders
 {
     public class GeoRockPreloader : Preloader
     {

@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Locations
+namespace ItemChanger.Locations
 {
     /// <summary>
     /// Location type which cannot accept a container, and thus must implement itself. Examples include items given in dialogue, etc.

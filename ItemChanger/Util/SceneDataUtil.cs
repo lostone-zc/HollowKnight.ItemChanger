@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Util
+namespace ItemChanger.Util
 {
     public static class SceneDataUtil
     {

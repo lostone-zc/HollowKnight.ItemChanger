@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Locations
+namespace ItemChanger.Locations
 {
     /// <summary>
     /// Helper location meant to be unpacked into a DualPlacement

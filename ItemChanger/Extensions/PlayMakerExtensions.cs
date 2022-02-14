@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Extensions
+namespace ItemChanger.Extensions
 {
     /// <summary>
     /// Extensions for interacting with and modifying FSMs.

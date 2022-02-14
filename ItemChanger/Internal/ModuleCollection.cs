@@ -1,4 +1,4 @@
-﻿using System.Reflection;
+using System.Reflection;
 using ItemChanger.Modules;
 using Module = ItemChanger.Modules.Module;
 

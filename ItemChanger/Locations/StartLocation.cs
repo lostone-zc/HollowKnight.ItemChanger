@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Locations
+namespace ItemChanger.Locations
 {
     /// <summary>
     /// Location for giving items at the start of the scene, late enough that they appear on the UI and soul is not removed if during respawn.

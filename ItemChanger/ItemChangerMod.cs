@@ -1,4 +1,4 @@
-﻿using ItemChanger.Internal;
+using ItemChanger.Internal;
 using ItemChanger.Util;
 using Modding;
 
@@ -192,7 +192,7 @@ namespace ItemChanger
             }
 
             Version v = a.GetName().Version;
-            _version = $"{v.Major}.{v.Minor}.{v.Build}+zh+{buildHash.ToString().PadLeft(3, '0')}";
+            _version = $"{v.Major}.{v.Minor}.{v.Build}+CaLST+{buildHash.ToString().PadLeft(3, '0')}";
         }
 
         public override int LoadPriority() => -2;

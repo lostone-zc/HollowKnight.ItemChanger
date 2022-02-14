@@ -1,4 +1,4 @@
-﻿using System.Runtime.CompilerServices;
+using System.Runtime.CompilerServices;
 using ItemChanger.Extensions;
 using Modding;
 using Newtonsoft.Json;

@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Modules
+namespace ItemChanger.Modules
 {
     /// <summary>
     /// Module which causes Room_Ouiji[left1] to lead to Room_Jinn[left1], and Room_Jinn[left1] to lead to the target of Room_Ouiji[left1].

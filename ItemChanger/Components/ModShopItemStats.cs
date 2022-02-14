@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Components
+namespace ItemChanger.Components
 {
     /// <summary>
     /// A component which is specially handled by ShopLocation to be used as a shop item.

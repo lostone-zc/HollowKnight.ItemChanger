@@ -1,4 +1,4 @@
-﻿using System.Reflection;
+using System.Reflection;
 using TMPro;
 using ItemChanger.Components;
 

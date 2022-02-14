@@ -1,4 +1,4 @@
-﻿namespace ItemChanger
+namespace ItemChanger
 {
     /// <summary>
     /// Enum used to communicate compatibility with different UIDef types.

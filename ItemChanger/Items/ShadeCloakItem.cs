@@ -1,4 +1,4 @@
-﻿namespace ItemChanger.Items
+namespace ItemChanger.Items
 {
     /// <summary>
     /// MultiBoolItem which sends an event for ShadowGateColliderControls to recheck whether the player has Shade Cloak.
