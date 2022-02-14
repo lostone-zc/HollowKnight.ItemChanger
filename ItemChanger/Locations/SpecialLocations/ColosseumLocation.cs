@@ -47,87 +47,43 @@ namespace ItemChanger.Locations.SpecialLocations
             PlayerData.instance.SetBool(GetCompletionBoolName(), true);
         }
 
-        private string GetCompletionBoolName()
+        private string GetCompletionBoolName() => sceneName switch
         {
-            switch (sceneName)
-            {
-                default:
-                case SceneNames.Room_Colosseum_Bronze:
-                    return nameof(PlayerData.colosseumBronzeCompleted);
-                case SceneNames.Room_Colosseum_Silver:
-                    return nameof(PlayerData.colosseumSilverCompleted);
-                case SceneNames.Room_Colosseum_Gold:
-                    return nameof(PlayerData.colosseumGoldCompleted);
-            }
-        }
+            SceneNames.Room_Colosseum_Bronze => nameof(PlayerData.colosseumBronzeCompleted),
+            SceneNames.Room_Colosseum_Silver => nameof(PlayerData.colosseumSilverCompleted),
+            _ => nameof(PlayerData.colosseumGoldCompleted),
+        };
 
-        private string GetTrialBoardConvo()
+        private string GetTrialBoardConvo() => sceneName switch
         {
-            switch (sceneName)
-            {
-                default:
-                case SceneNames.Room_Colosseum_Bronze:
-                    return "TRIAL_BOARD_BRONZE";
-                case SceneNames.Room_Colosseum_Silver:
-                    return "TRIAL_BOARD_SILVER";
-                case SceneNames.Room_Colosseum_Gold:
-                    return "TRIAL_BOARD_GOLD";
-            }
-        }
+            SceneNames.Room_Colosseum_Bronze => "TRIAL_BOARD_BRONZE",
+            SceneNames.Room_Colosseum_Silver => "TRIAL_BOARD_SILVER",
+            _ => "TRIAL_BOARD_GOLD",
+        };
 
-        private string GetTrialBoardHint(string itemText)
+        private string GetTrialHintConvo() => sceneName switch
         {
-            StringBuilder sb = new();
-            switch (sceneName)
-            {
-                default:
-                case SceneNames.Room_Colosseum_Bronze:
-                    sb.Append("勇士的试炼。");
-                    break;
-                case SceneNames.Room_Colosseum_Silver:
-                    sb.Append("征服者的试炼。");
-                    break;
-                case SceneNames.Room_Colosseum_Gold:
-                    sb.Append("愚人的试炼。");
-                    break;
-            }
+            SceneNames.Room_Colosseum_Bronze => "TRIAL_HINT_BRONZE",
+            SceneNames.Room_Colosseum_Silver => "TRIAL_HINT_SILVER",
+            _ => "TRIAL_HINT_GOLD",
+        };
 
-            sb.AppendLine($"为吉欧和 {itemText} 而战。");
-            sb.Append("放置标记，开始试炼？");
-            return sb.ToString();
-        }
-
-        private string GetTrialBoardNullHint()
+        private string GetTrialNullHintConvo() => sceneName switch
         {
-            StringBuilder sb = new();
-            switch (sceneName)
-            {
-                default:
-                case SceneNames.Room_Colosseum_Bronze:
-                    sb.Append("勇士的试炼。");
-                    break;
-                case SceneNames.Room_Colosseum_Silver:
-                    sb.Append("征服者的试炼。");
-                    break;
-                case SceneNames.Room_Colosseum_Gold:
-                    sb.Append("愚人的试炼。");
-                    break;
-            }
-
-            sb.AppendLine($"为吉欧而战。");
-            sb.Append("放置标记，开始试炼？");
-            return sb.ToString();
-        }
+            SceneNames.Room_Colosseum_Bronze => "TRIAL_NULLHINT_BRONZE",
+            SceneNames.Room_Colosseum_Silver => "TRIAL_NULLHINT_SILVER",
+            _ => "TRIAL_NULLHINT_GOLD",
+        };
 
         private void OnLanguageGet(ref string value)
         {
             if (this.GetItemHintActive() && !Placement.AllObtained())
             {
                 string text = Placement.GetUIName(75);
-                value = GetTrialBoardHint(text);
+                value = string.Format(Language.Language.Get(GetTrialHintConvo(), "Fmt"), text);
                 Placement.OnPreview(text);
             }
-            else value = GetTrialBoardNullHint();
+            else value = Language.Language.Get(GetTrialNullHintConvo(), "Prompts");
         }
     }
 }

@@ -84,8 +84,7 @@ namespace ItemChanger.Locations.SpecialLocations
             {
                 if (IsOnThisSlot(fsm))
                 {
-                    DialogueCenter.StartConversation($"啊啊啊啊啊啊啊啊啊！<page>这个 {CharmNameUtil.GetCharmName(requiredCharmID)} 护符……真漂亮！" +
-                        $"如此宝贵的东西！小可爱，你可以让我看看它吗？一定要给我看看啊！");
+                    DialogueCenter.StartConversation(string.Format(Language.Language.Get("DIVINE_HAS_CHARM", "Fmt"), CharmNameUtil.GetCharmName(requiredCharmID)));
                 }
             }));
 

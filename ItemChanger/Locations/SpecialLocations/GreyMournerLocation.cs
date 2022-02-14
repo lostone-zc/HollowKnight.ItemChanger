@@ -47,7 +47,7 @@ namespace ItemChanger.Locations.SpecialLocations
             if (this.GetItemHintActive())
             {
                 string text = Placement.GetUIName();
-                value = $"接受礼物, 即使你知道你完成后会获得糟糕的 {text} ？";
+                value = string.Format(Language.Language.Get("XUN_OFFER_HINT", "Fmt"), text);
                 Placement.OnPreview(text);
             }
         }

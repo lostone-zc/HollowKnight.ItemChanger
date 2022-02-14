@@ -45,7 +45,7 @@ namespace ItemChanger.Locations.SpecialLocations
             if (this.GetItemHintActive())
             {
                 string text = Placement.GetUIName(40);
-                value = $"装有 {text} 的茧。\n使用简单钥匙？";
+                value = string.Format(Language.Language.Get("GODSEEKER_COFFIN_KEY_HINT", "Fmt"), text);
                 Placement.OnPreview(text);
             }
         }
@@ -55,7 +55,7 @@ namespace ItemChanger.Locations.SpecialLocations
             if (this.GetItemHintActive())
             {
                 string text = Placement.GetUIName();
-                value = $"被简单锁锁住的茧。你能隐约感觉到里面有 {text} 。";
+                value = string.Format(Language.Language.Get("GODSEEKER_COFFIN_NOKEY_HINT", "Fmt"), text);
                 Placement.OnPreview(text);
             }
         }

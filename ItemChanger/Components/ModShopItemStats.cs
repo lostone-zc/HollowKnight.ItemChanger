@@ -17,16 +17,16 @@ namespace ItemChanger.Components
         public string GetShopDesc()
         {
             if (item.HasTag<Tags.DisableItemPreviewTag>()
-                || (placement != null && placement.HasTag<Tags.DisableItemPreviewTag>())) return "???";
+                || (placement != null && placement.HasTag<Tags.DisableItemPreviewTag>())) return Language.Language.Get("???", "IC");
             UIDef def = item.GetResolvedUIDef(placement);
-            return def?.GetShopDesc() ?? "???";
+            return def?.GetShopDesc() ?? Language.Language.Get("???", "IC");
         }
 
         public string GetShopCostText()
         {
             if (item.HasTag<Tags.DisableCostPreviewTag>()
                 || (placement != null && placement.HasTag<Tags.DisableCostPreviewTag>()))
-                return "这件物品的价格是个秘密!";
+                return Language.Language.Get("SECRET_COST_SHOPDESC", "IC");
             return cost.GetShopCostText();
         }
 
@@ -36,7 +36,7 @@ namespace ItemChanger.Components
             if (item.HasTag<Tags.DisableCostPreviewTag>()
                 || (placement != null && placement.HasTag<Tags.DisableCostPreviewTag>()))
             {
-                text += "  -  这件物品的价格是个秘密!";
+                text += "  -  " + Language.Language.Get("SECRET_COST_SHOPDESC", "IC");
             }
             else if (cost is not null && !cost.Paid)
             {

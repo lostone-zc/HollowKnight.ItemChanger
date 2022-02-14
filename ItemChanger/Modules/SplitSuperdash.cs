@@ -86,11 +86,11 @@ namespace ItemChanger.Modules
         {
             if (hasSuperdashLeft && !hasSuperdashRight)
             {
-                value = "左水晶之心";
+                value = Language.Language.Get("ITEMCHANGER_NAME_LEFT_SUPERDASH", "UI");
             }
             else if (!hasSuperdashLeft && hasSuperdashRight)
             {
-                value = "右水晶之心";
+                value = Language.Language.Get("ITEMCHANGER_NAME_RIGHT_SUPERDASH", "UI");
             }
         }
 
@@ -98,11 +98,11 @@ namespace ItemChanger.Modules
         {
             if (hasSuperdashLeft && !hasSuperdashRight)
             {
-                value = "一个古老挖矿魔像的能量核心的一部分，以一块强力的水晶塑成。水晶的能量可以被引导，能将持有者以危险的速度向左发射出去。";
+                value = Language.Language.Get("ITEMCHANGER_SHOPDESC_LEFT_SUPERDASH", "UI");
             }
             else if (!hasSuperdashLeft && hasSuperdashRight)
             {
-                value = "一个古老挖矿魔像的能量核心的一部分，以一块强力的水晶塑成。水晶的能量可以被引导，能将持有者以危险的速度向右发射出去。";
+                value = Language.Language.Get("ITEMCHANGER_SHOPDESC_RIGHT_SUPERDASH", "UI");
             }
         }
 

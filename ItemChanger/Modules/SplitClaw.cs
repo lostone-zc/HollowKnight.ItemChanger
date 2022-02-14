@@ -86,11 +86,11 @@ namespace ItemChanger.Modules
         {
             if (hasWalljumpLeft && !hasWalljumpRight)
             {
-                value = "左螳螂爪";
+                value = Language.Language.Get("ITEMCHANGER_NAME_LEFT_CLAW", "UI");
             }
             else if (!hasWalljumpLeft && hasWalljumpRight)
             {
-                value = "右螳螂爪";
+                value = Language.Language.Get("ITEMCHANGER_NAME_RIGHT_CLAW", "UI");
             }
         }
 
@@ -98,11 +98,11 @@ namespace ItemChanger.Modules
         {
             if (hasWalljumpLeft && !hasWalljumpRight)
             {
-                value = "用骨头雕刻的爪子的一部分。允许使用者紧贴墙壁的左侧并在墙上跳跃。";
+                value = Language.Language.Get("ITEMCHANGER_SHOP_DESC_LEFT_CLAW", "UI");
             }
             else if (!hasWalljumpLeft && hasWalljumpRight)
             {
-                value = "用骨头雕刻的爪子的一部分。允许使用者的右侧紧贴墙壁并在墙上跳跃。";
+                value = Language.Language.Get("ITEMCHANGER_SHOP_DESC_RIGHT_CLAW", "UI");
             }
         }
 

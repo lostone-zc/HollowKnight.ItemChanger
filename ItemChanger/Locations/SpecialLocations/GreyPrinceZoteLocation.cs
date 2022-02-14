@@ -37,8 +37,7 @@ namespace ItemChanger.Locations.SpecialLocations
                 string item = Placement.GetUIName(40);
                 if (string.IsNullOrEmpty(item)) return;
 
-                value += $"<page>少女的回礼<br>少女想送点礼物给她的救主，她想到她房间下面的珍贵的 "
-                    + item + " 。虽然少女与这件物品难舍难分，但是她也没有比这更好的礼物了。";
+                value += string.Format(Language.Language.Get("BRETTA_DIARY_POSTSCRIPT", "Fmt"), item);
                 Placement.OnPreview(item);
             }
         }

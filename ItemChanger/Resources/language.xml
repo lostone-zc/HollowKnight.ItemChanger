@@ -72,11 +72,11 @@
   <entry sheet="UI" key="ITEMCHANGER_NAME_LEFT_CLAW">左螳螂爪</entry>
   <entry sheet="Prompts" key="ITEMCHANGER_DESC_LEFT_CLAW">在墙上滑动时跳跃</entry>
   <entry sheet="Prompts" key="ITEMCHANGER_DESC_LEFT_CLAW_2">仅限左边!</entry>
-  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_LEFT_CLAW">好东西!遗憾的是，它只能用于左边.</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_LEFT_CLAW">用骨头雕刻的爪子的一部分。允许使用者的左侧紧贴墙壁并在墙上跳跃。</entry>
   <entry sheet="UI" key="ITEMCHANGER_NAME_RIGHT_CLAW">右螳螂爪</entry>
   <entry sheet="Prompts" key="ITEMCHANGER_DESC_RIGHT_CLAW">在墙上滑动时跳跃</entry>
   <entry sheet="Prompts" key="ITEMCHANGER_DESC_RIGHT_CLAW_2">仅限右边!</entry>
-  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_RIGHT_CLAW">好东西!遗憾的是，它只能用于右边.</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_RIGHT_CLAW">用骨头雕刻的爪子的一部分。允许使用者的右侧紧贴墙壁并在墙上跳跃。</entry>
   <entry sheet="UI" key="ITEMCHANGER_SHOP_NAME_WALLJUMP">螳螂爪</entry>
   <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_WALLJUMP">用骨头雕刻的爪子。允许使用者紧贴墙壁并在墙上跳跃。(快乐的vm)</entry>
 
@@ -84,24 +84,59 @@
   <entry sheet="UI" key="ITEMCHANGER_NAME_LEFT_CLOAK">左蛾翼披风</entry>
   <entry sheet="Prompts" key="ITEMCHANGER_DESC_LEFT_CLOAK">向左冲刺.</entry>
   <entry sheet="Prompts" key="ITEMCHANGER_DESC_LEFT_CLOAK_2">使用披风在地面或空中向前冲刺.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_LEFT_CLOAK">好东西!遗憾的是，它只能用于左边</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_LEFT_CLOAK">蛾翅线编制的披风的一部分。让穿着者可在地面或空中向左冲刺。</entry>
   <entry sheet="UI" key="ITEMCHANGER_NAME_RIGHT_CLOAK">右蛾翼披风</entry>
   <entry sheet="Prompts" key="ITEMCHANGER_DESC_RIGHT_CLOAK">向右冲刺</entry>
   <entry sheet="Prompts" key="ITEMCHANGER_DESC_RIGHT_CLOAK_2">使用披风在地面或空中向前冲刺.</entry>
-  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_RIGHT_CLOAK">好东西!遗憾的是，它只能用于右边</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_RIGHT_CLOAK">蛾翅线编制的披风的一部分。让穿着者可在地面或空中向右冲刺。</entry>
   <entry sheet="UI" key="ITEMCHANGER_SHOP_NAME_DASH">蛾翼披风</entry>
   <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_DASH">蛾翅线编制的披风。让穿着者可在地面或空中向前冲刺。</entry>
   <entry sheet="UI" key="ITEMCHANGER_SHOP_NAME_SHADOWDASH">暗影披风</entry>
   <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_SHADOWDASH">由深渊的物质形成的披风。允许穿戴者冲刺时穿过敌人和他们的攻击而不受到伤害。</entry>
   <entry sheet="UI" key="ITEMCHANGER_SHOP_NAME_LEFT_SHADOWDASH">左暗影披风</entry>
   <entry sheet="UI" key="ITEMCHANGER_SHOP_NAME_RIGHT_SHADOWDASH">右暗影披风</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_LEFT_SHADOWDASH">由深渊的物质形成的披风的一部分。允许穿戴者向左冲刺时穿过敌人和他们的攻击而不受到伤害。</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_RIGHT_SHADOWDASH">由深渊的物质形成的披风的一部分。允许穿戴者向右冲刺时穿过敌人和他们的攻击而不受到伤害。</entry>
 
   <entry sheet="UI" key="ITEMCHANGER_NAME_LEFT_SUPERDASH">左水晶之心</entry>
   <entry sheet="Prompts" key="ITEMCHANGER_GET_LEFT_SUPERDASH_1">在地面或墙上积蓄力量</entry>
   <entry sheet="Prompts" key="ITEMCHANGER_GET_LEFT_SUPERDASH_2">松开按钮以向左飞行</entry>
-  <entry sheet="UI" key="ITEMCHANGER_SHOPDESC_LEFT_SUPERDASH">一个古老挖矿魔像的能量核心的一部分，以一块强力的水晶塑成。水晶的能量可以被引导，能将持有者以危险的速度向前发射出去。</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOPDESC_LEFT_SUPERDASH">一个古老挖矿魔像的能量核心的一部分，以一块强力的水晶塑成。水晶的能量可以被引导，能将持有者以危险的速度向左发射出去。</entry>
   <entry sheet="UI" key="ITEMCHANGER_NAME_RIGHT_SUPERDASH">右水晶之心</entry>
   <entry sheet="Prompts" key="ITEMCHANGER_GET_RIGHT_SUPERDASH_1">在地面或墙上积蓄力量</entry>
   <entry sheet="Prompts" key="ITEMCHANGER_GET_RIGHT_SUPERDASH_2">松开按钮以向右飞行</entry>
-  <entry sheet="UI" key="ITEMCHANGER_SHOPDESC_RIGHT_SUPERDASH">一个古老挖矿魔像的能量核心的一部分，以一块强力的水晶塑成。水晶的能量可以被引导，能将持有者以危险的速度向前发射出去。</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOPDESC_RIGHT_SUPERDASH">一个古老挖矿魔像的能量核心的一部分，以一块强力的水晶塑成。水晶的能量可以被引导，能将持有者以危险的速度向右发射出去。</entry>
+
+  <entry sheet="IC" key="CHEST_CONTENTS">宝箱内的物品</entry>
+  <entry sheet="IC" key="FREE">免费</entry>
+  <entry sheet="IC" key="PURCHASED">已交易</entry>
+  <entry sheet="IC" key="OBTAINED">已获得</entry>
+  <entry sheet="IC" key="???">???</entry>
+  <entry sheet="IC" key="UNKNOWN_ITEM">未知的物品</entry>
+  <entry sheet="IC" key="SECRET_COST_SHOPDESC">这件物品的价格是个秘密!</entry>
+
+  <entry sheet="Jiji" key="EGGSHOP_GREET">啊，你好。你最近怎么样？你给我带好吃的了吗？让我看看...</entry>
+  <entry sheet="Jiji" key="EGGSHOP_DECLINE">哦，我的老伙计，如果你看不上我这的东西，我就没啥能帮你的了。</entry>
+  <entry sheet="Jiji" key="EGGSHOP_YN">给吉吉你所有的腐臭蛋？</entry>
+
+  <entry sheet="Fmt" key="TRIAL_HINT_BRONZE">勇士的试炼。为吉欧和 {0} 而战。&lt;br&gt;放置标记，开始试炼？</entry>
+  <entry sheet="Fmt" key="TRIAL_HINT_SILVER">征服者的试炼。为吉欧和 {0} 而战。&lt;br&gt;放置标记，开始试炼？</entry>
+  <entry sheet="Fmt" key="TRIAL_HINT_GOLD">愚人的试炼。为吉欧和 {0} 而战。&lt;br&gt;放置标记，开始试炼？</entry>
+  <entry sheet="Prompts" key="TRIAL_NULLHINT_BRONZE">勇士的试炼。为吉欧而战。&lt;br&gt;放置标记，开始试炼？</entry>
+  <entry sheet="Prompts" key="TRIAL_NULLHINT_SILVER">征服者的试炼。为吉欧而战。&lt;br&gt;放置标记，开始试炼？</entry>
+  <entry sheet="Prompts" key="TRIAL_NULLHINT_GOLD">愚人的试炼。为吉欧而战。&lt;br&gt;放置标记，开始试炼？</entry>
+  <entry sheet="Fmt" key="DIVINE_HAS_CHARM">啊啊啊啊啊啊啊啊啊！&lt;page&gt;这个 {0} 护符……真漂亮！如此宝贵的东西！小可爱，你可以让我看看它吗？一定要给我看看啊！</entry>
+  <entry sheet="Fmt" key="GEO_RELIEVE_HINT">为了个 {0} 把所有的吉欧投入喷泉？</entry>
+  <entry sheet="Fmt" key="BRUMM_DEEPNEST_3_HINT">所以我们臣服……就如从前一样。是吧？&lt;page&gt;那就带走这个 {0} 吧，你不就是为此而来的么。</entry>
+  <entry sheet="Fmt" key="GODSEEKER_COFFIN_NOKEY_HINT">被简单锁锁住的茧。你能隐约感觉到里面有 {0} 。</entry>
+  <entry sheet="Fmt" key="GODSEEKER_COFFIN_KEY_HINT">装有 {0} 的茧。&lt;br&gt;使用简单钥匙？</entry>
+  <entry sheet="Fmt" key="XUN_OFFER_HINT">接受礼物, 即使你知道你完成后会获得糟糕的 {0} ？</entry>
+  <entry sheet="Fmt" key="BRETTA_DIARY_POSTSCRIPT">&lt;page&gt;少女的回礼&lt;br&gt;少女想送点礼物给她的救主，她想到她房间下面的珍贵的 {0} 。虽然少女与这件物品难舍难分，但是她也没有比这更好的礼物了。</entry>
+  <entry sheet="Fmt" key="DUSK_KNIGHT_CORPSE_HINT">身穿白色盔甲的尸体。 你清晰地看到它正拿着 {0} 但出于一些直播间观众的原因，你知道你必须要去穿过那些尖刺和电剧，要去获得它。</entry>
+  <entry sheet="Lore Tablets" key="DUSK_KNIGHT_CORPSE_OBTAINED">身穿白色盔甲的尸体。 你已经获得它的物品。</entry>
+  <entry sheet="Fmt" key="TUK_REMINDER">&lt;page&gt;如果你装备 {0} 护符，情况会有所变化...</entry>
+  <entry sheet="Fmt" key="ESSENCE">{0} 精华</entry>
+  <entry sheet="Fmt" key="GEO">{0} 吉欧</entry>
+  <entry sheet="Fmt" key="GRUB">一只幼虫！(#{0})</entry>
+  <entry sheet="Fmt" key="FLAME">格林之火 (#{0})</entry>
 </Language>

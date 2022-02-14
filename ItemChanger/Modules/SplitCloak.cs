@@ -126,11 +126,11 @@ namespace ItemChanger.Modules
         {
             if (canDashLeft && !canDashRight)
             {
-                value = "左蛾翼披风";
+                value = Language.Language.Get("ITEMCHANGER_NAME_LEFT_CLOAK", "UI");
             }
             else if (!canDashLeft && canDashRight)
             {
-                value = "右蛾翼披风";
+                value = Language.Language.Get("ITEMCHANGER_NAME_RIGHT_CLOAK", "UI");
             }
         }
 
@@ -138,11 +138,11 @@ namespace ItemChanger.Modules
         {
             if (canDashLeft && !canDashRight)
             {
-                value = "左暗影披风";
+                value = Language.Language.Get("ITEMCHANGER_SHOP_NAME_LEFT_SHADOWDASH", "UI");
             }
             else if (!canDashLeft && canDashRight)
             {
-                value = "右暗影披风";
+                value = Language.Language.Get("ITEMCHANGER_SHOP_NAME_RIGHT_SHADOWDASH", "UI");
             }
         }
 
@@ -150,11 +150,11 @@ namespace ItemChanger.Modules
         {
             if (canDashLeft && !canDashRight)
             {
-                value = "蛾翅线编制的披风的一部分。让穿着者可在地面或空中向左冲刺。";
+                value = Language.Language.Get("ITEMCHANGER_SHOP_DESC_LEFT_CLOAK", "UI");
             }
             else if (!canDashLeft && canDashRight)
             {
-                value = "蛾翅线编制的披风的一部分。让穿着者可在地面或空中向右冲刺。";
+                value = Language.Language.Get("ITEMCHANGER_SHOP_DESC_RIGHT_CLOAK", "UI");
             }
         }
 
@@ -162,11 +162,11 @@ namespace ItemChanger.Modules
         {
             if (canDashLeft && !canDashRight)
             {
-                value = "由深渊的物质形成的披风的一部分。允许穿戴者向左冲刺时穿过敌人和他们的攻击而不受到伤害。";
+                value = Language.Language.Get("ITEMCHANGER_SHOP_DESC_LEFT_SHADOWDASH", "UI");
             }
             else if (!canDashLeft && canDashRight)
             {
-                value = "由深渊的物质形成的披风的一部分。允许穿戴者向右冲刺时穿过敌人和他们的攻击而不受到伤害。";
+                value = Language.Language.Get("ITEMCHANGER_SHOP_DESC_RIGHT_SHADOWDASH", "UI");
             }
         }
     }

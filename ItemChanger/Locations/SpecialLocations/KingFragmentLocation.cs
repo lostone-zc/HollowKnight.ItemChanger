@@ -26,15 +26,12 @@ namespace ItemChanger.Locations.SpecialLocations
                 if (!Placement.AllObtained())
                 {
                     string text = Placement.GetUIName();
-                    value = "身穿白色盔甲的尸体。 你清晰地看到它正拿着 "
-                                + text + " ，" +
-                                "但出于一些直播间观众的原因，你知道你必须" +
-                                "要去穿过那些尖刺和电剧，要去获得它。";
+                    value = string.Format(Language.Language.Get("DUSK_KNIGHT_CORPSE_HINT", "Fmt"), text);
                     Placement.OnPreview(text);
                 }
                 else
                 {
-                    value = "身穿白色盔甲的尸体。 你已经获得它的物品。";
+                    value = Language.Language.Get("DUSK_KNIGHT_CORPSE_OBTAINED", "Lore Tablets");
                 }
             }
         }
