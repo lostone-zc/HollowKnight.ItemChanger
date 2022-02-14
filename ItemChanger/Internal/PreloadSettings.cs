@@ -20,7 +20,6 @@ namespace ItemChanger.Internal
         [JsonIgnore] public PreloadLevel PreloadSoulTotems { get => Get(); set => Set(value); }
         [JsonIgnore] public PreloadLevel PreloadGrub { get => Get(); set => Set(value); }
         [JsonIgnore] public PreloadLevel PreloadMimic { get => Get(); set => Set(value); }
-        //[JsonIgnore] public PreloadLevel PreloadBluggsac { get => Get(); set => Set(value); }
 
         public PreloadSettings()
         {
@@ -30,7 +29,6 @@ namespace ItemChanger.Internal
                 { nameof(PreloadSoulTotems), PreloadLevel.Full },
                 { nameof(PreloadGrub), PreloadLevel.Full },
                 { nameof(PreloadMimic), PreloadLevel.Full },
-                //{ nameof(PreloadBluggsac), PreloadLevel.Full },
             };
         }
         [JsonConstructor] public PreloadSettings(Dictionary<string, PreloadLevel> PreloadLevels) => this.PreloadLevels = PreloadLevels;
@@ -44,13 +42,12 @@ namespace ItemChanger.Internal
         private void Set(PreloadLevel value, [CallerMemberName] string caller = null) => PreloadLevels[caller] = value;
 
 
-        private static Dictionary<string, PreloadLevel?> _preloadOverrides = new()
+        private static readonly Dictionary<string, PreloadLevel?> _preloadOverrides = new()
         {
             { nameof(PreloadGeoRocks), null },
             { nameof(PreloadSoulTotems), null },
             { nameof(PreloadGrub), null },
             { nameof(PreloadMimic), null },
-            //{ nameof(PreloadBluggsac), null },
         };
 
         public static void AddPreloadOverride(string propertyName, PreloadLevel value)
@@ -73,23 +70,15 @@ namespace ItemChanger.Internal
         internal MenuEntry[] GetMenuEntries()
         {
             PreloadLevel[] values = Enum.GetValues(typeof(PreloadLevel)).Cast<PreloadLevel>().ToArray();
-            string[] names = values.Select((PreloadLevel p) => p.ToString().FromCamelCase()).ToArray();
-            return ((IEnumerable<string>)PreloadLevels.Keys).Select((Func<string, MenuEntry>)((string key) => new MenuEntry(Localize(key), names, string.Empty, (Action<int>)delegate (int i)
-            {
-                PreloadLevels[key] = values[i];
-            }, (Func<int>)(() => Array.IndexOf(values, PreloadLevels[key]))))).ToArray();
-        }
-
-        public string Localize(string orig)
-        {
-            return orig switch
-            {
-                "PreloadGeoRocks" => "钱堆预加载",
-                "PreloadSoulTotems" => "灵魂图腾预加载",
-                "PreloadGrub" => "幼虫预加载",
-                "PreloadMimic" => "假虫预加载",
-                _ => orig,
-            };
+            string[] names = values.Select(p => LanguageStringManager.GetICString("PRELOAD_LEVEL_" + p.ToString().FromCamelCase().Replace(' ', '_').ToUpper() + "_NAME")).ToArray();
+            return PreloadLevels.Keys.Select(key => new MenuEntry(
+                    name: LanguageStringManager.GetICString(key.FromCamelCase().Replace(' ', '_').ToUpper() + "_NAME"),
+                    values: names,
+                    description: string.Empty,
+                    saver: i => PreloadLevels[key] = values[i],
+                    loader: () => Array.IndexOf(values, PreloadLevels[key])))
+                .Where(e => !string.IsNullOrEmpty(e.Name))
+                .ToArray();
         }
     }
 }

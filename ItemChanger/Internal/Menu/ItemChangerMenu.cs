@@ -5,19 +5,19 @@ namespace ItemChanger.Internal.Menu
 {
     public static class ItemChangerMenu
     {
-        public readonly record struct SubpageDef(string Title, string Description, MenuEntry[] Entries);
+        public readonly record struct SubpageDef(string TitleKey, string DescriptionKey, MenuEntry[] Entries);
         public static readonly List<SubpageDef> Subpages = new()
         {
             new() 
             {
-                Title = "预加载设置", 
-                Description = "设置在重启游戏后生效。", 
+                TitleKey = "PRELOAD_SETTINGS_NAME",
+                DescriptionKey = "PRELOAD_SETTINGS_DESC",
                 Entries = ItemChangerMod.GS.PreloadSettings.GetMenuEntries(),
             },
             new() 
             {
-                Title = "随机点状态设置", 
-                Description = "设置不会影响已有存档。", 
+                TitleKey = "LOCATION_SETTINGS_NAME",
+                DescriptionKey = "LOCATION_SETTINGS_DESC",
                 Entries = ItemChangerMod.GS.LocationSettings.GetMenuEntries(),
             },
         };
@@ -25,8 +25,13 @@ namespace ItemChanger.Internal.Menu
 
         public static MenuScreen GetMenuScreen(MenuScreen modListMenu, ModToggleDelegates? toggleDelegates)
         {
-            ModMenuScreenBuilder builder = new("ItemChangerMod", modListMenu);
-            foreach (SubpageDef def in Subpages) builder.AddSubpage(def.Title, def.Description, def.Entries);
+            ModMenuScreenBuilder builder = new(LanguageStringManager.GetICString("ITEMCHANGERMOD"), modListMenu);
+            foreach (SubpageDef def in Subpages)
+            {
+                Log(LanguageStringManager.GetICString(def.TitleKey));
+                builder.AddSubpage(LanguageStringManager.GetICString(def.TitleKey), LanguageStringManager.GetICString(def.DescriptionKey), def.Entries);
+            }
+
             return builder.CreateMenuScreen();
         }
     }
