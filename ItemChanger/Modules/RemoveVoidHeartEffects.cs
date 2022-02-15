@@ -69,7 +69,7 @@ namespace ItemChanger.Modules
 
         private void EditVoidHeartDescription(ref string value)
         {
-            value = "隐藏在内部的空虚，现在不再受到约束。联合了持有者意志下的虚无存在。\n这个护符可以移除，以恢复兄弟和阴影的敌对性";
+            value = Language.Language.Get("CHARM_DESC_36_C_ALT", "UI");
         }
     }
 }

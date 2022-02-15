@@ -46,8 +46,19 @@ namespace ItemChanger
         }
 
         [JsonIgnore]
-        public string Value => Language.Language.Get(key, sheet)?.Replace("<br>", "\n").CapLength(125) 
-            + "...\n\n你已到达每月阅读上限。若想继续阅读，请一键三连，送主播一个648!";
+        public string Value
+        {
+            get
+            {
+                if (!int.TryParse(Language.Language.Get("PAYWALL_LIMIT", "IC"), out int limit))
+                {
+                    limit = 125;
+                }
+
+                return Language.Language.Get(key, sheet)?.Replace("<br>", "\n").CapLength(limit) + string.Format(Language.Language.Get("PAYWALL_TEXT", "IC").Replace("<br>", "\n"), limit);
+            }
+        }
+
         public IString Clone() => (IString)MemberwiseClone();
     }
 

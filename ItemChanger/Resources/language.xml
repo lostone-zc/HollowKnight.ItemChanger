@@ -60,16 +60,16 @@
   <entry sheet="Prompts" key="ITEMCHANGER_DESC_FOCUS">这个你总不会不知道吧</entry>
   <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_FOCUS">哈哈哈哈哈,有胆别买</entry>
   <entry sheet="UI" key="ITEMCHANGER_NAME_SWIM">游泳</entry>
-  <entry sheet="Prompts" key="ITEMCHANGER_DESC_SWIM">你已经掌握了浮力!</entry>
-  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_SWIM">没有它，你很多路当场gg,by 海蓝</entry>
+  <entry sheet="Prompts" key="ITEMCHANGER_DESC_SWIM">你已经掌握了浮力！</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_SWIM">没有它，你很多路当场gg，by 海蓝</entry>
   <entry sheet="UI" key="ITEMCHANGER_NAME_LEFTSLASH">左劈</entry>
   <entry sheet="UI" key="ITEMCHANGER_NAME_RIGHTSLASH">右劈</entry>
   <entry sheet="UI" key="ITEMCHANGER_NAME_UPSLASH">上劈</entry>
   <entry sheet="UI" key="ITEMCHANGER_NAME_DOWNSLASH">下劈</entry>
-  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_LEFTSLASH">你好像很没有力量!让我们来治疗一下!</entry>
-  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_RIGHTSLASH">你好像很没有力量!让我们来治疗一下!</entry>
-  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_UPSLASH">你好像很没有力量!让我们来治疗一下!</entry>
-  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_DOWNSLASH">你好像很没有力量!让我们来治疗一下!</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_LEFTSLASH">你好像很没有力量！让我们来治疗一下！</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_RIGHTSLASH">你好像很没有力量！让我们来治疗一下！</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_UPSLASH">你好像很没有力量！让我们来治疗一下！</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_DOWNSLASH">你好像很没有力量！让我们来治疗一下！</entry>
 
   <!--Split Claw-->
   <entry sheet="UI" key="ITEMCHANGER_NAME_LEFT_CLAW">左螳螂爪</entry>
@@ -116,7 +116,7 @@
   <entry sheet="IC" key="OBTAINED">已获得</entry>
   <entry sheet="IC" key="???">???</entry>
   <entry sheet="IC" key="UNKNOWN_ITEM">未知的物品</entry>
-  <entry sheet="IC" key="SECRET_COST_SHOPDESC">这件物品的价格是个秘密!</entry>
+  <entry sheet="IC" key="SECRET_COST_SHOPDESC">这件物品的价格是个秘密！</entry>
 
   <entry sheet="IC" key="TRACKER_NAME">追踪器</entry>
   <entry sheet="IC" key="TRACKER_CAN_FOCUS">你能聚集。</entry>
@@ -140,6 +140,7 @@
 
   <entry sheet="IC" key="FALSE">关</entry>
   <entry sheet="IC" key="TRUE">开</entry>
+  <entry sheet="IC" key="COMMA_AND">、</entry>
 
   <entry sheet="IC" key="ITEMCHANGERMOD">ItemChanger模组</entry>
   <entry sheet="IC" key="PRELOAD_SETTINGS_NAME">预加载设置</entry>
@@ -158,7 +159,7 @@
   <entry sheet="IC" key="PRELOAD_LEVEL_REDUCED_NAME">少量</entry>
   <entry sheet="IC" key="PRELOAD_LEVEL_NONE_NAME">无</entry>
 
-  <entry sheet="Jiji" key="EGGSHOP_GREET">啊，你好。你最近怎么样？你给我带好吃的了吗？让我看看...</entry>
+  <entry sheet="Jiji" key="EGGSHOP_GREET">啊，你好。你最近怎么样？你给我带好吃的了吗？让我看看……</entry>
   <entry sheet="Jiji" key="EGGSHOP_DECLINE">哦，我的老伙计，如果你看不上我这的东西，我就没啥能帮你的了。</entry>
   <entry sheet="Jiji" key="EGGSHOP_YN">给吉吉你所有的腐臭蛋？</entry>
 
@@ -169,6 +170,7 @@
   <entry sheet="Prompts" key="TRIAL_NULLHINT_SILVER">征服者的试炼。为吉欧而战。&lt;br&gt;放置标记，开始试炼？</entry>
   <entry sheet="Prompts" key="TRIAL_NULLHINT_GOLD">愚人的试炼。为吉欧而战。&lt;br&gt;放置标记，开始试炼？</entry>
   <entry sheet="Fmt" key="DIVINE_HAS_CHARM">啊啊啊啊啊啊啊啊啊！&lt;page&gt;这个 {0} 护符……真漂亮！如此宝贵的东西！小可爱，你可以让我看看它吗？一定要给我看看啊！</entry>
+  <entry sheet="Fmt" key="DIVINE_NO_CHARM">&lt;page&gt;你有 {0} 的气味……赶快把它戴上！</entry>
   <entry sheet="Fmt" key="GEO_RELIEVE_HINT">为了个 {0} 把所有的吉欧投入喷泉？</entry>
   <entry sheet="Fmt" key="BRUMM_DEEPNEST_3_HINT">所以我们臣服……就如从前一样。是吧？&lt;page&gt;那就带走这个 {0} 吧，你不就是为此而来的么。</entry>
   <entry sheet="Fmt" key="GODSEEKER_COFFIN_NOKEY_HINT">被简单锁锁住的茧。你能隐约感觉到里面有 {0} 。</entry>
@@ -177,9 +179,21 @@
   <entry sheet="Fmt" key="BRETTA_DIARY_POSTSCRIPT">&lt;page&gt;少女的回礼&lt;br&gt;少女想送点礼物给她的救主，她想到她房间下面的珍贵的 {0} 。虽然少女与这件物品难舍难分，但是她也没有比这更好的礼物了。</entry>
   <entry sheet="Fmt" key="DUSK_KNIGHT_CORPSE_HINT">身穿白色盔甲的尸体。 你清晰地看到它正拿着 {0} 但出于一些直播间观众的原因，你知道你必须要去穿过那些尖刺和电剧，要去获得它。</entry>
   <entry sheet="Lore Tablets" key="DUSK_KNIGHT_CORPSE_OBTAINED">身穿白色盔甲的尸体。 你已经获得它的物品。</entry>
-  <entry sheet="Fmt" key="TUK_REMINDER">&lt;page&gt;如果你装备 {0} 护符，情况会有所变化...</entry>
+  <entry sheet="Fmt" key="TUK_REMINDER">&lt;page&gt;如果你装备 {0} 护符，情况会有所变化……</entry>
   <entry sheet="Fmt" key="ESSENCE">{0} 精华</entry>
   <entry sheet="Fmt" key="GEO">{0} 吉欧</entry>
   <entry sheet="Fmt" key="GRUB">一只幼虫！(#{0})</entry>
   <entry sheet="Fmt" key="FLAME">格林之火 (#{0})</entry>
+  <entry sheet="Fmt" key="PAY_GEO">支付 {0} 吉欧</entry>
+  <entry sheet="Fmt" key="REQUIRES_ESSENCE">需要 {0} 精华</entry>
+  <entry sheet="Fmt" key="REQUIRES_GRUBS">需要 {0} 幼虫</entry>
+  <entry sheet="IC" key="REQUIRES_GRUB">需要 1 幼虫</entry>
+  <entry sheet="Fmt" key="REQUIRES_FLAMES">需要 {0} 格林火焰</entry>
+  <entry sheet="Fmt" key="PAY_FLAMES">交付 {0} 格林火焰</entry>
+  <entry sheet="Fmt" key="PAY_EGGS">交付 {0} 腐臭蛋</entry>
+  <entry sheet="IC" key="PAY_EGG">交付 1 腐臭蛋</entry>
+  <entry sheet="UI" key="CHARM_DESC_36_C_ALT">隐藏在内部的空虚，现在不再受到约束。联合了持有者意志下的虚无存在。&lt;br&gt;这个护符可以移除，以恢复兄弟和阴影的敌对性。</entry>
+
+  <entry sheet="IC" key="PAYWALL_TEXT">...&lt;br&gt;你已到达每月 {0} 字符的阅读上限。若想继续阅读，请一键三连，送主播一个648！</entry>
+  <entry sheet="IC" key="PAYWALL_LIMIT">125</entry>
 </Language>

@@ -212,9 +212,7 @@ namespace ItemChanger.Locations.SpecialLocations
                     .Select(fi => fi.Value).ToList();
                 if (charmIDs.Count != 0)
                 {
-                    text += $"<page>你有 {CharmNameUtil.GetCharmName(charmIDs[0])}";
-                    for (int i = 1; i < charmIDs.Count; i++) text += $", {CharmNameUtil.GetCharmName(charmIDs[i])}";
-                    text += " 的气味... 赶快把它戴上!";
+                    text += string.Format(Language.Language.Get("DIVINE_NO_CHARM", "Fmt"), string.Join(Language.Language.Get("COMMA_AND", "IC"), charmIDs.Select(i => CharmNameUtil.GetCharmName(i))));
                 }
                 DialogueCenter.StartConversation(text);
             });
