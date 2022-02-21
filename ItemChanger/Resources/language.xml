@@ -175,7 +175,7 @@
   <entry sheet="Fmt" key="BRUMM_DEEPNEST_3_HINT">所以我们臣服……就如从前一样。是吧？&lt;page&gt;那就带走这个 {0} 吧，你不就是为此而来的么。</entry>
   <entry sheet="Fmt" key="GODSEEKER_COFFIN_NOKEY_HINT">被简单锁锁住的茧。你能隐约感觉到里面有 {0} 。</entry>
   <entry sheet="Fmt" key="GODSEEKER_COFFIN_KEY_HINT">装有 {0} 的茧。&lt;br&gt;使用简单钥匙？</entry>
-  <entry sheet="Fmt" key="XUN_OFFER_HINT">接受礼物, 即使你知道你完成后会获得糟糕的 {0} ？</entry>
+  <entry sheet="Fmt" key="XUN_OFFER_HINT">接受礼物, 即使你知道你完成后会获得 {0} ？&lt;br&gt;此外，她还请求你不要拿你的回椅子玷污她的花。</entry>
   <entry sheet="Fmt" key="BRETTA_DIARY_POSTSCRIPT">&lt;page&gt;少女的回礼&lt;br&gt;少女想送点礼物给她的救主，她想到她房间下面的珍贵的 {0} 。虽然少女与这件物品难舍难分，但是她也没有比这更好的礼物了。</entry>
   <entry sheet="Fmt" key="DUSK_KNIGHT_CORPSE_HINT">身穿白色盔甲的尸体。 你清晰地看到它正拿着 {0} 但出于一些直播间观众的原因，你知道你必须要去穿过那些尖刺和电剧，要去获得它。</entry>
   <entry sheet="Lore Tablets" key="DUSK_KNIGHT_CORPSE_OBTAINED">身穿白色盔甲的尸体。 你已经获得它的物品。</entry>
