@@ -117,6 +117,7 @@
   <entry sheet="IC" key="???">???</entry>
   <entry sheet="IC" key="UNKNOWN_ITEM">未知的物品</entry>
   <entry sheet="IC" key="SECRET_COST_SHOPDESC">这件物品的价格是个秘密！</entry>
+  <entry sheet="IC" key="NOTHING">Nothing</entry>
 
   <entry sheet="IC" key="TRACKER_NAME">追踪器</entry>
   <entry sheet="IC" key="TRACKER_CAN_FOCUS">你能聚集。</entry>

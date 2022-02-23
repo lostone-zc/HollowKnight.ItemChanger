@@ -13,7 +13,7 @@ namespace ItemChanger.Items
                 amount = amount,
                 UIDef = new UIDefs.MsgUIDef
                 {
-                    name = new BoxedString($"{amount} 吉欧"),
+                    name = new BoxedString(string.Format(Language.Language.Get("GEO", "Fmt"), amount)),
                     shopDesc = new LanguageString("UI", "ITEMCHANGER_DESC_GEO"),
                     sprite = new ItemChangerSprite("ShopIcons.Geo"),
                 },

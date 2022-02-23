@@ -192,7 +192,7 @@ namespace ItemChanger
             }
 
             Version v = a.GetName().Version;
-            _version = $"{v.Major}.{v.Minor}.{v.Build}+CaLST+{buildHash.ToString().PadLeft(3, '0')}";
+            _version = $"{v.Major}.{v.Minor}.{v.Build} Pre-release+CaLST+{buildHash.ToString().PadLeft(3, '0')}";
         }
 
         public override int LoadPriority() => -2;
