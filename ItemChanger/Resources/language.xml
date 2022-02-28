@@ -183,8 +183,8 @@
   <entry sheet="Fmt" key="TUK_REMINDER">&lt;page&gt;如果你装备 {0} 护符，情况会有所变化……</entry>
   <entry sheet="Fmt" key="ESSENCE">{0} 精华</entry>
   <entry sheet="Fmt" key="GEO">{0} 吉欧</entry>
-  <entry sheet="Fmt" key="GRUB">一只幼虫！(#{0})</entry>
-  <entry sheet="Fmt" key="FLAME">格林之火 (#{0})</entry>
+  <entry sheet="Fmt" key="GRUB">一只幼虫！({0}/???)</entry>
+  <entry sheet="Fmt" key="FLAME">格林之火 ({0}/???)</entry>
   <entry sheet="Fmt" key="PAY_GEO">支付 {0} 吉欧</entry>
   <entry sheet="Fmt" key="REQUIRES_ESSENCE">需要 {0} 精华</entry>
   <entry sheet="Fmt" key="REQUIRES_GRUBS">需要 {0} 幼虫</entry>
