@@ -127,7 +127,7 @@
   <entry sheet="Fmt" key="TRACKER_ESSENCE">你有 {0} 精华。</entry>
   <entry sheet="Fmt" key="TRACKER_FLAMES">你有 {0} 未使用的格林火焰。（总共：{1}）</entry>
   <entry sheet="Fmt" key="TRACKER_FLAMES_NO_GFM">你有 {0} 未使用的格林火焰。</entry>
-  <entry sheet="Fmt" key="TRACKER_GRUBS">你目前救了 {0} grub(s) 幼虫。</entry>
+  <entry sheet="Fmt" key="TRACKER_GRUBS">你目前救了 {0} 幼虫。</entry>
   <entry sheet="IC" key="TRACKER_NO_DREAMERS">你目前没有找到任何一个守梦者。</entry>
   <entry sheet="Fmt" key="TRACKER_DREAMERS">你目前找到了 {0} 守梦者，包括：</entry>
   <entry sheet="IC" key="TRACKER_DUPLICATE_DREAMERS">复制的守梦者</entry>

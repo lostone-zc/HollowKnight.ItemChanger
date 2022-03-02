@@ -90,7 +90,7 @@ namespace ItemChanger.Modules
                 if (herrah) dreamers--;
                 bool dupe = dreamers > 0;
 
-                sb.AppendLine(string.Join("、",
+                sb.AppendLine(string.Join(Language.Language.Get("COMMA_AND", "IC"),
                     new (bool, string)[]
                     {
                         (lurien, Language.Language.Get("ITEMCHANGER_NAME_LURIEN_CONDENSED", "UI")),
@@ -123,7 +123,7 @@ namespace ItemChanger.Modules
                 sb.Append("<br><br>");
                 if (abilities.Length > 0)
                 {
-                    sb.AppendFormat(Language.Language.Get("TRACKER_CAN_NAIL", "Fmt"), string.Join("、", abilities));
+                    sb.AppendFormat(Language.Language.Get("TRACKER_CAN_NAIL", "Fmt"), string.Join(Language.Language.Get("COMMA_AND", "IC"), abilities));
                 }
                 else
                 {
