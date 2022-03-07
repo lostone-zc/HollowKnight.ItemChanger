@@ -5519,7 +5519,7 @@
       },
       "shopDesc": {
         "$type": "ItemChanger.BoxedString, ItemChanger",
-        "Value": "竖直的电车是什么，为什么这个的图像是竖直的电车通行证?"
+        "Value": "垂直的电车是什么，为什么这个的图像是垂直的电车通行证?"
       },
       "sprite": {
         "$type": "ItemChanger.ItemChangerSprite, ItemChanger",

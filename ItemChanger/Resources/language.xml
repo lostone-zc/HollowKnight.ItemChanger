@@ -1,13 +1,10 @@
 <Language>
   <entry sheet="UI" key="ITEMCHANGER_GET_COLLECTOR_MAP">不要把它当成地图，请想象成它是你作为一个人的标志</entry>
   <entry sheet="UI" key="ITEMCHANGER_NAME_LURIEN">泪城城主卢瑞恩</entry>
-  <entry sheet="UI" key="ITEMCHANGER_NAME_LURIEN_CONDENSED">卢瑞恩</entry>
   <entry sheet="UI" key="ITEMCHANGER_DESC_LURIEN">它至少应该值10倍的价（毕竟有谁不喜欢感染呢^_^）</entry>
   <entry sheet="UI" key="ITEMCHANGER_NAME_MONOMON">教师莫诺蒙</entry>
-  <entry sheet="UI" key="ITEMCHANGER_NAME_MONOMON_CONDENSED">莫诺蒙</entry>
   <entry sheet="UI" key="ITEMCHANGER_DESC_MONOMON">它至少应该值10倍的价（毕竟有谁不喜欢感染呢^_^）</entry>
   <entry sheet="UI" key="ITEMCHANGER_NAME_HERRAH">大黄蜂之母赫拉</entry>
-  <entry sheet="UI" key="ITEMCHANGER_NAME_HERRAH_CONDENSED">赫拉</entry>
   <entry sheet="UI" key="ITEMCHANGER_DESC_HERRAH">它至少应该值10倍的价（毕竟有谁不喜欢感染呢^_^）</entry>
   <entry sheet="UI" key="ITEMCHANGER_NAME_DREAMER">守梦者</entry>
   <entry sheet="UI" key="ITEMCHANGER_DESC_DREAMER">它至少应该值10倍的价（毕竟有谁不喜欢感染呢^_^）</entry>
@@ -130,6 +127,9 @@
   <entry sheet="Fmt" key="TRACKER_GRUBS">你目前救了 {0} 幼虫。</entry>
   <entry sheet="IC" key="TRACKER_NO_DREAMERS">你目前没有找到任何一个守梦者。</entry>
   <entry sheet="Fmt" key="TRACKER_DREAMERS">你目前找到了 {0} 守梦者，包括：</entry>
+  <entry sheet="IC" key="TRACKER_LURIEN">卢瑞恩</entry>
+  <entry sheet="IC" key="TRACKER_MONOMON">莫诺蒙</entry>
+  <entry sheet="IC" key="TRACKER_HERRAH">赫拉</entry>
   <entry sheet="IC" key="TRACKER_DUPLICATE_DREAMERS">复制的守梦者</entry>
   <entry sheet="IC" key="TRACKER_LEFT">左</entry>
   <entry sheet="IC" key="TRACKER_RIGHT">右</entry>
@@ -138,10 +138,11 @@
   <entry sheet="Fmt" key="TRACKER_CAN_NAIL">可以向{0}挥舞。</entry>
   <entry sheet="IC" key="TRACKER_CANNOT_NAIL">不能被挥舞。</entry>
 
-
+	
   <entry sheet="IC" key="FALSE">关</entry>
   <entry sheet="IC" key="TRUE">开</entry>
   <entry sheet="IC" key="COMMA_AND">、</entry>
+  <entry sheet="IC" key="COMMA_SPACE">、</entry>
 
   <entry sheet="IC" key="ITEMCHANGERMOD">ItemChanger模组</entry>
   <entry sheet="IC" key="PRELOAD_SETTINGS_NAME">预加载设置</entry>
