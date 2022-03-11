@@ -144,12 +144,12 @@
   <entry sheet="IC" key="COMMA_AND">、</entry>
   <entry sheet="IC" key="COMMA_SPACE">、</entry>
 
-  <entry sheet="IC" key="ITEMCHANGERMOD">ItemChanger模组</entry>
+  <entry sheet="IC" key="ITEMCHANGERMOD">ItemChanger 模组</entry>
   <entry sheet="IC" key="PRELOAD_SETTINGS_NAME">预加载设置</entry>
   <entry sheet="IC" key="PRELOAD_SETTINGS_DESC">设置在重启游戏后生效。</entry>
   <entry sheet="IC" key="LOCATION_SETTINGS_NAME">随机点状态设置</entry>
   <entry sheet="IC" key="LOCATION_SETTINGS_DESC">设置不会影响已有存档。</entry>
-  <entry sheet="IC" key="AVOID_NPC_ITEM_DIALOGUE_NAME">跳过NPC对话</entry>
+  <entry sheet="IC" key="AVOID_NPC_ITEM_DIALOGUE_NAME">跳过 NPC 对话</entry>
   <entry sheet="IC" key="AVOID_BLUGGSACS_NAME">用白点代替臭蛋口袋</entry>
   <entry sheet="IC" key="RETAIN_TABLETS_ON_REPLACE_NAME">保持碑文精灵图像</entry>
 
