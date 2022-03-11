@@ -198,4 +198,6 @@
 
   <entry sheet="IC" key="PAYWALL_TEXT">...&lt;br&gt;你已到达每月 {0} 字符的阅读上限。若想继续阅读，请一键三连，送主播一个648！</entry>
   <entry sheet="IC" key="PAYWALL_LIMIT">125</entry>
+
+  <entry sheet="Credits List" key="PERMA_GAME_OVER_CONTINUE">轻按或按住任意按钮继续。</entry>
 </Language>
